@@ -1,0 +1,1836 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1017> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/6/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Paternopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000248> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0100543> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1017> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1017> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1017> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1017> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1017"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1017> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1109> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/2/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000639> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002311> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1109> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1109> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1109> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1109> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1109"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1109> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1127> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/25/1964" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000750> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0011097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1127> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1127> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1127> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1127> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1127"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1127> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1176> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/18/2004" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Novara> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001319> , <http://purl.obolibrary.org/obo/HP_0002121> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1176> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1176> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1176> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1176> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1176"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1176> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1580> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/6/1979" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Noto> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000708> , <http://purl.obolibrary.org/obo/HP_0001513> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1580> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1580> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1580> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1580> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1580"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1580> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1619> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/20/1978" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avigliana> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000717> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0011968> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1619> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1619> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1619> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1619> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1619"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1619> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1772> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/28/1950" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000717> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002121> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1772> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1772> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1772> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1772"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1992> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/20/1970" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pietrasanta> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1992> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1992> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1992> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1992> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1992"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1992> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1993> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/15/1970" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pordenone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000157> , <http://purl.obolibrary.org/obo/HP_0002066> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1993> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/1993> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_1993> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/1993> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "1993"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/1993> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2063> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/28/1945" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001344> , <http://purl.obolibrary.org/obo/HP_0008936> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2063> a <http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2063> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2063> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2063> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2063"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2063> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2075> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/1/1957" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0007270> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2075> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2075> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2075> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2075> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2075"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2075> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2101> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/27/1961" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Mottola> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000327> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0006887> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2101> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2101> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2101> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2101> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2101"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2101> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2164> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/10/1949" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000164> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0010864> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2164> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2164> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2164> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2164> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2164"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2164> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2303> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/25/1990" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0008872> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2303> a <http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2303> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2303> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2303> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2303"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2303> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2485> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/3/2004" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000750> , <http://purl.obolibrary.org/obo/HP_0002070> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2485> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2485> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2485> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2485> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2485"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2485> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2551> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/18/1979" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Novara> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2551> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2551> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2551> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2551> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2551"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2551> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2630> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/30/1974" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000708> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002487> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2630> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2630> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2630> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2630> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2630"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2630> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2712> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/17/1948" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001270> , <http://purl.obolibrary.org/obo/HP_0008872> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2712> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2712> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2712> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2712> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2712"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2712> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2767> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/2/1981" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chivasso> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002167> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2767> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2767> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2767> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2767> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2767"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2767> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2772> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/17/1975" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chivasso> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000490> , <http://purl.obolibrary.org/obo/HP_0001513> , <http://purl.obolibrary.org/obo/HP_0002136> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2772> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2772> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2772> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2772"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2780> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/24/1976" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Brescia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000749> , <http://purl.obolibrary.org/obo/HP_0002066> , <http://purl.obolibrary.org/obo/HP_0011097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2780> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2780> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2780> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2780> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2780"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2780> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2799> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/11/1968" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000248> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2799> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2799> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2799> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2799> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2799"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2799> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2813> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/8/1990" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0002019> , <http://purl.obolibrary.org/obo/HP_0005469> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2813> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2813> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2813> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2813> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "2813"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2813> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2894> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/15/1977" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Martinengo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000635> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0011097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2894> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2894> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2894> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2894> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2894"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2894> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2980> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/19/1982" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000717> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0010864> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2980> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/2980> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_2980> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/2980> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "2980"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/2980> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3034> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/10/1954" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chieti> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000635> , <http://purl.obolibrary.org/obo/HP_0001319> , <http://purl.obolibrary.org/obo/HP_0006829> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3034> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3034> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3034> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3034> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "3034"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3034> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3331> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/18/1953" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pistoia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0008872> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3331> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3331> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3331> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3331> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3331"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3331> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3336> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/30/1992" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Noto> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000164> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3336> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3336> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3336> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3336> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3336"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3336> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3400> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/25/1997" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pordenone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000729> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002307> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3400> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3400> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3400> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3400> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3400"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3400> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3416> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/3/1965" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0005469> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3416> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3416> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3416> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3416> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3416"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3416> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3619> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/13/1950" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avigliana> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0007270> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3619> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3619> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3619> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3619> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3619"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3619> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3649> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/30/1974" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avezzano> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0001513> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3649> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3649> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3649> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3649> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3649"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3649> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3657> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/27/1991" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pistoia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000164> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3657> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3657> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3657> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3657> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3657"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3657> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3879> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/28/1953" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Brescia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001252> , <http://purl.obolibrary.org/obo/HP_0002448> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3879> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3879> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3879> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3879> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3879"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3879> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3934> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/20/1998" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Martinengo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000708> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002307> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3934> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/3934> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_3934> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/3934> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "3934"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/3934> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4007> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/9/1951" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ravenna> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000749> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002487> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4007> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4007> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4007> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4007> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4007"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4007> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4067> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/15/1992" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000490> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0005484> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4067> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4067> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4067> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4067> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "4067"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4067> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4072> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/5/1991" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Naples> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000545> , <http://purl.obolibrary.org/obo/HP_0001513> , <http://purl.obolibrary.org/obo/HP_0002078> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4072> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4072> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4072> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4072> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4072"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4072> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4097> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/29/1977" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000272> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0100021> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4097> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4097> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4097> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4097"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4311> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/10/1982" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pistoia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000577> , <http://purl.obolibrary.org/obo/HP_0001999> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4311> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4311> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4311> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4311> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4311"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4311> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4347> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "12/7/1940" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Martinengo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000749> , <http://purl.obolibrary.org/obo/HP_0001347> , <http://purl.obolibrary.org/obo/HP_0002474> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4347> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4347> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4347> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4347> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4347"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4347> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4487> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/19/2010" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Paternopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001999> , <http://purl.obolibrary.org/obo/HP_0002311> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4487> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4487> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4487> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4487> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4487"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4487> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4500> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/13/2001" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0002120> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4500> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4500> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4500> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4500> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4500"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4500> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4616> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/28/1994" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000157> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0007359> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4616> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4616> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4616> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4616> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4616"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4616> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4772> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/6/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ecuador> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000577> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0005469> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4772> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4772> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4772> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4772"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4772> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4803> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/2/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000750> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0010864> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4803> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/4803> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_4803> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/4803> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "4803"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/4803> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5047> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/25/1964" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000545> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0200085> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5047> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5047> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5047> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5047> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5047"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5047> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5100> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/18/2004" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000327> , <http://purl.obolibrary.org/obo/HP_0001319> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5100> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5100> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5100> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5100> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5100"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5100> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5119> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/6/1979" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Naples> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002078> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5119> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5119> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5119> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5119> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5119"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5119> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5124> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/20/1978" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001344> , <http://purl.obolibrary.org/obo/HP_0011150> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5124> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5124> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5124> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5124> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5124"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5124> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5197> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/28/1950" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ecuador> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000749> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002197> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5197> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5197> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5197> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5197> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5197"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5197> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5238> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/20/1970" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ecuador> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000708> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5238> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5238> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5238> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5238> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5238"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5238> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5261> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/15/1970" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chieti> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001347> , <http://purl.obolibrary.org/obo/HP_0002136> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5261> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5261> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5261> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5261> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "5261"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5261> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5319> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "12/13/1962" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5319> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5319> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5319> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5319> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5319"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5319> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5337> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/21/1973" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avezzano> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0002307> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5337> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5337> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5337> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5337> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5337"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5337> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5361> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/7/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002286> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5361> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5361> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5361> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5361> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5361"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5361> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5535> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/2/1988" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Naples> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000248> , <http://purl.obolibrary.org/obo/HP_0002019> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5535> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5535> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5535> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5535> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5535"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5535> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5672> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/13/1970" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avigliana> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0002448> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5672> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5672> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5672> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5672> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5672"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5672> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5675> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/21/2008" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Troina> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001270> , <http://purl.obolibrary.org/obo/HP_0011150> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5675> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5675> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5675> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5675> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5675"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5675> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5724> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/18/1942" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0002070> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5724> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5724> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5724> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5724> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "5724"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5724> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5738> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/13/1945" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0006979> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5738> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5738> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5738> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5738> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5738"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5738> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5971> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/5/1982" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ravenna> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0008872> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5971> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5971> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5971> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5971> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5971"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5971> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5982> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/10/1948" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avola> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000158> , <http://purl.obolibrary.org/obo/HP_0001999> , <http://purl.obolibrary.org/obo/HP_0002650> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5982> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/5982> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_5982> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/5982> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "5982"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/5982> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6026> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/28/1966" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000635> , <http://purl.obolibrary.org/obo/HP_0001270> , <http://purl.obolibrary.org/obo/HP_0002286> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6026> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6026> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6026> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6026> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6026"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6026> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6234> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/30/1940" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000164> , <http://purl.obolibrary.org/obo/HP_0001336> , <http://purl.obolibrary.org/obo/HP_0002133> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6234> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6234> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6234> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6234> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6234> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6258> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/3/1955" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pistoia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6258> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6258> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6258> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6258> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6258"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6258> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6376> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/16/1958" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avola> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000639> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0007240> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6376> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6376> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6376> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6376> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6376"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6376> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6703> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/12/1988" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000157> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0006829> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6703> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6703> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6703> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6703> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6703"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6703> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6909> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/4/1966" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avigliana> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000750> , <http://purl.obolibrary.org/obo/HP_0001999> , <http://purl.obolibrary.org/obo/HP_0008872> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6909> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6909> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6909> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6909> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6909"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6909> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6969> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/2/2007" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6969> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/6969> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_6969> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/6969> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "6969"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/6969> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7019> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/15/1966" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001344> , <http://purl.obolibrary.org/obo/HP_0002311> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7019> a <http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7019> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7019> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7019> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7019"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7019> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7038> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "12/3/1975" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Mottola> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000545> , <http://purl.obolibrary.org/obo/HP_0001252> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7038> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7038> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7038> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7038> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7038"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7038> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7203> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/22/1999" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_1110087> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0001319> , <http://purl.obolibrary.org/obo/HP_0011097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7203> <http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7203> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7203> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7203> a <http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> ;
+	<http://purl.org/dc/terms/identifier> "7203"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7203> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7296> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/14/1992" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pistoia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0008947> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7296> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7296> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7296> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7296> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7296"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7296> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7415> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/22/1992" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7415> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7415> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7415> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7415> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7415"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7415> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7462> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/5/1997" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Turin> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001347> , <http://purl.obolibrary.org/obo/HP_0100021> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7462> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7462> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7462> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7462> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7462"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7462> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7596> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/27/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Aisone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001251> , <http://purl.obolibrary.org/obo/HP_0002078> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7596> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7596> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7596> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7596> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7596"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7596> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7623> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/10/1992" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Troina> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000749> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7623> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7623> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7623> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7623> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7623"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7623> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7631> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/6/2000" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chivasso> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000577> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7631> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7631> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7631> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7631> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7631"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7631> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7722> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/30/2003" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avigliana> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001347> , <http://purl.obolibrary.org/obo/HP_0002167> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7722> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7722> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7722> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7722> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7722"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7722> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7847> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/26/1966" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Avezzano> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000164> , <http://purl.obolibrary.org/obo/HP_0001336> , <http://purl.obolibrary.org/obo/HP_0002448> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7847> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/7847> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_7847> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/7847> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "7847"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/7847> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8101> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/24/1971" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Noto> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002136> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8101> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8101> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8101> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8101> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8101"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8101> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8141> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/11/1951" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0006887> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8141> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8141> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8141> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8141> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8141"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8141> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8361> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/30/1982" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000157> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002167> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8361> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8361> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8361> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8361> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8361"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8361> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8379> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "12/1/1963" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000327> , <http://purl.obolibrary.org/obo/HP_0002019> , <http://purl.obolibrary.org/obo/HP_0002373> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8379> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8379> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8379> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8379> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8379"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8379> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8752> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/2/1973" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001336> , <http://purl.obolibrary.org/obo/HP_0010808> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8752> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8752> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8752> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8752> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8752"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8752> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8905> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/10/1966" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Aisone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0002066> , <http://purl.obolibrary.org/obo/HP_0005484> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8905> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8905> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8905> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8905> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8905"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8905> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8953> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/26/1989" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Catania> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000577> , <http://purl.obolibrary.org/obo/HP_0001539> , <http://purl.obolibrary.org/obo/HP_0100543> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8953> a <http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8953> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8953> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8953> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8953"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8953> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8960> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/2/2001" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Aisone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000748> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0002650> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8960> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/8960> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_8960> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/8960> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "8960"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/8960> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9009> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "6/19/2001" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0200085> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9009> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9009> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9009> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9009> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9009"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9009> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9130> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "5/5/1991" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Turin> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000486> , <http://purl.obolibrary.org/obo/HP_0001263> , <http://purl.obolibrary.org/obo/HP_0008947> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9130> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9130> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9130> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9130> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9130"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9130> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9259> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/2/1977" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000545> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9259> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9259> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9259> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9259> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9259"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9259> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9401> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "2/13/2001" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Forlimpopoli> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000248> , <http://purl.obolibrary.org/obo/HP_0001250> , <http://purl.obolibrary.org/obo/HP_0006829> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9401> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9401> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9401> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9401> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9401"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9401> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9465> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "4/20/2000" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Novara> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000303> , <http://purl.obolibrary.org/obo/HP_0001252> , <http://purl.obolibrary.org/obo/HP_0010864> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9465> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9465> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9465> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9465> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9465"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9465> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9524> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "11/20/2002" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000687> , <http://purl.obolibrary.org/obo/HP_0001539> , <http://purl.obolibrary.org/obo/HP_0002353> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9524> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9524> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9524> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9524> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9524"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9524> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9576> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/11/2006" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000490> , <http://purl.obolibrary.org/obo/HP_0001249> , <http://purl.obolibrary.org/obo/HP_0002312> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9576> a <http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9576> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9576> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9576> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9576"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9576> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9613> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "9/27/1958" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Brescia> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000157> , <http://purl.obolibrary.org/obo/HP_0001270> , <http://purl.obolibrary.org/obo/HP_0011150> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9613> a <http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9613> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9613> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9613> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9613"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9613> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9642> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "1/22/1947" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bergamo> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000154> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0011097> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9642> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9642> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9642> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9642> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9642"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9642> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9679> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "10/10/1950" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Mottola> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000490> , <http://purl.obolibrary.org/obo/HP_0000752> , <http://purl.obolibrary.org/obo/HP_0008936> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9679> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9679> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9679> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9679> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9679"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9679> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9688> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "8/24/1995" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Female> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pordenone> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000490> , <http://purl.obolibrary.org/obo/HP_0001010> , <http://purl.obolibrary.org/obo/HP_0002197> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9688> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9688> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9688> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9688> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9688"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9688> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9761> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "7/4/2005" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Genoa> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000252> , <http://purl.obolibrary.org/obo/HP_0001270> , <http://purl.obolibrary.org/obo/HP_0006829> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9761> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "PROXIMAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9761> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9761> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9761> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9761"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9761> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9771> a <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+	<http://dbpedia.org/ontology/birthDate> "3/25/2008" ;
+	<http://dbpedia.org/property/gender> <http://dbpedia.org/resource/Male> ;
+	<http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pietrasanta> ;
+	<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/OBI_0000093> ;
+	<http://rdf.biosemantics.org/ontologies/dummy/hasDisease> <http://www.orpha.net/ORDO/Orphanet_72> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/registry/72744-collection1> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://purl.obolibrary.org/obo/HP_0000635> , <http://purl.obolibrary.org/obo/HP_0001022> , <http://purl.obolibrary.org/obo/HP_0002121> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9771> a <http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> ;
+	<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> "DISTAL" .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/person/9771> <http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://rdf.biosemantics.org/dataset/tuscany/resource/karyotype_9771> .
+
+<http://rdf.biosemantics.org/dataset/tuscany/resource/identifier/9771> a <http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> ;
+	<http://purl.org/dc/terms/identifier> "9771"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/tuscany/resource/person/9771> .

@@ -1,0 +1,1166 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-543-931-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/543-931-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-543-931-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-543-931-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-543-931-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-953-252-345> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/953-252-345> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-953-252-345> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-953-252-345"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-953-252-345> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-142-543-456> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/142-543-456> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-142-543-456> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-142-543-456"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-142-543-456> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-343-274-567> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/343-274-567> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-343-274-567> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-343-274-567"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-343-274-567> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-436-705-678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/436-705-678> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-436-705-678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-436-705-678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-436-705-678> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-922-026-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/922-026-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-922-026-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-922-026-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-922-026-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-235-097-890> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/235-097-890> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-235-097-890> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-235-097-890"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-235-097-890> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-084-618-901> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/084-618-901> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-084-618-901> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-084-618-901"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-084-618-901> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-336-081-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/336-081-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-336-081-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-336-081-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-336-081-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-822-302-345> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/822-302-345> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-822-302-345> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-822-302-345"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-822-302-345> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-903-123-456> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/903-123-456> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-903-123-456> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-903-123-456"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-903-123-456> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-552-874-567> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/552-874-567> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-552-874-567> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-552-874-567"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-552-874-567> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-904-845-678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/904-845-678> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-904-845-678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-904-845-678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-904-845-678> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-043-836-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/043-836-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-043-836-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-043-836-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-043-836-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-670-447-890> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/670-447-890> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-670-447-890> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-670-447-890"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-670-447-890> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-676-688-901> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/676-688-901> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-676-688-901> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-676-688-901"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-676-688-901> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-821-861-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/821-861-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-821-861-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-821-861-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-821-861-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-303-042-345> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/303-042-345> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-303-042-345> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-303-042-345"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-303-042-345> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-810-333-456> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/810-333-456> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-810-333-456> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-810-333-456"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-810-333-456> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-290-504-567> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/290-504-567> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-290-504-567> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-290-504-567"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-290-504-567> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-018-415-678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/018-415-678> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-018-415-678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-018-415-678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-018-415-678> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-527-286-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/527-286-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-527-286-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-527-286-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-527-286-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-372-547-890> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/372-547-890> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-372-547-890> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-372-547-890"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-372-547-890> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-679-028-901> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/679-028-901> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-679-028-901> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-679-028-901"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-679-028-901> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-092-889-012> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/092-889-012> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-092-889-012> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-092-889-012"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-092-889-012> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-088-940-123> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/088-940-123> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-088-940-123> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-088-940-123"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-088-940-123> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-644-021-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/644-021-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-644-021-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-644-021-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-644-021-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-635-762-345> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/635-762-345> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-635-762-345> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-635-762-345"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-635-762-345> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-963-103-456> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/963-103-456> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-963-103-456> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-963-103-456"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-963-103-456> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-659-324-567> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/659-324-567> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-659-324-567> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-659-324-567"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-659-324-567> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-055-835-678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/055-835-678> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-055-835-678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-055-835-678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-055-835-678> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-181-246-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/181-246-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-181-246-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-181-246-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-181-246-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-740-597-890> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/740-597-890> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-740-597-890> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-740-597-890"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-740-597-890> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-526-658-012> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/526-658-012> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-526-658-012> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-526-658-012"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-526-658-012> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-902-339-012> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/902-339-012> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-902-339-012> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-902-339-012"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-902-339-012> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-367-120-123> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/367-120-123> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-367-120-123> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-367-120-123"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-367-120-123> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-253-213-456> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/253-213-456> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-253-213-456> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-253-213-456"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-253-213-456> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-138-445-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/138-445-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-138-445-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-138-445-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-138-445-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-707-149-536> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/707-149-536> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-707-149-536> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-707-149-536"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-707-149-536> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-546-012-694> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/546-012-694> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-546-012-694> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-546-012-694"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-546-012-694> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-569-555-792> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/569-555-792> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-569-555-792> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-569-555-792"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-569-555-792> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-281-974-612> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/281-974-612> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-281-974-612> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-281-974-612"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-281-974-612> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-068-930-313> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/068-930-313> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-068-930-313> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-068-930-313"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-068-930-313> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-306-575-701> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/306-575-701> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-306-575-701> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-306-575-701"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-306-575-701> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-605-977-184> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/605-977-184> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-605-977-184> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-605-977-184"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-605-977-184> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-249-709-381> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/249-709-381> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-249-709-381> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-249-709-381"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-249-709-381> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-173-872-396> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/173-872-396> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-173-872-396> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-173-872-396"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-173-872-396> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-899-222-850> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/899-222-850> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-899-222-850> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-899-222-850"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-899-222-850> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-873-503-594> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/873-503-594> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-873-503-594> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-873-503-594"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-873-503-594> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-359-231-297> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/359-231-297> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-359-231-297> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-359-231-297"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-359-231-297> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-048-530-19X> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/048-530-19X> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-048-530-19X> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-048-530-19X"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-048-530-19X> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-344-401-938> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/344-401-938> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-344-401-938> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-344-401-938"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-344-401-938> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-246-310-961> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/246-310-961> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-246-310-961> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-246-310-961"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-246-310-961> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-860-026-247> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/860-026-247> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-860-026-247> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-860-026-247"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-860-026-247> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-290-390-162> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/290-390-162> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-290-390-162> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-290-390-162"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-290-390-162> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-474-896-239> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/474-896-239> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-474-896-239> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-474-896-239"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-474-896-239> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-719-345-983> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/719-345-983> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-719-345-983> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-719-345-983"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-719-345-983> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-106-031-208> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/106-031-208> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-106-031-208> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-106-031-208"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-106-031-208> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-900-922-306> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/900-922-306> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-900-922-306> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-900-922-306"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-900-922-306> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-898-315-472> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/898-315-472> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-898-315-472> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-898-315-472"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-898-315-472> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-841-781-028> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/841-781-028> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-841-781-028> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-841-781-028"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-841-781-028> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-565-932-378> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/565-932-378> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-565-932-378> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-565-932-378"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-565-932-378> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-818-794-59X> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/818-794-59X> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-818-794-59X> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-818-794-59X"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-818-794-59X> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-927-831-207> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/927-831-207> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-927-831-207> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-927-831-207"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-927-831-207> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-466-242-354> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/466-242-354> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-466-242-354> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-466-242-354"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-466-242-354> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-355-791-258> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/355-791-258> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-355-791-258> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-355-791-258"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-355-791-258> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-730-883-406> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/730-883-406> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-730-883-406> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-730-883-406"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-730-883-406> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-242-024-506> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/242-024-506> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-242-024-506> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-242-024-506"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-242-024-506> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-106-477-809> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/106-477-809> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-106-477-809> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-106-477-809"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-106-477-809> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-861-071-207> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/861-071-207> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-861-071-207> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-861-071-207"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-861-071-207> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-757-035-680> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/757-035-680> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-757-035-680> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-757-035-680"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-757-035-680> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-318-001-297> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/318-001-297> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-318-001-297> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-318-001-297"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-318-001-297> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-780-172-560> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/780-172-560> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-780-172-560> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-780-172-560"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-780-172-560> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-826-193-459> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/826-193-459> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-826-193-459> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-826-193-459"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-826-193-459> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-378-100-936> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/378-100-936> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-378-100-936> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-378-100-936"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-378-100-936> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-639-811-092> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/639-811-092> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-639-811-092> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-639-811-092"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-639-811-092> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-926-076-692> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/926-076-692> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-926-076-692> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-926-076-692"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-926-076-692> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-715-391-987> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/715-391-987> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-715-391-987> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-715-391-987"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-715-391-987> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-443-320-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/443-320-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-443-320-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-443-320-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-443-320-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-796-189-832> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/796-189-832> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-796-189-832> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-796-189-832"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-796-189-832> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-800-281-208> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/800-281-208> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-800-281-208> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-800-281-208"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-800-281-208> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-317-232-043> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/317-232-043> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-317-232-043> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-317-232-043"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-317-232-043> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-587-340-112> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/587-340-112> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-587-340-112> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-587-340-112"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-587-340-112> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-408-250-000> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/408-250-000> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-408-250-000> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-408-250-000"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-408-250-000> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-705-738-201> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/705-738-201> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-705-738-201> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-705-738-201"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-705-738-201> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-111-625-230> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/111-625-230> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-111-625-230> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-111-625-230"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-111-625-230> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-286-091-889> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/286-091-889> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-286-091-889> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-286-091-889"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-286-091-889> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-354-252-654> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/354-252-654> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-354-252-654> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-354-252-654"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-354-252-654> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-324-971-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/324-971-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-324-971-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-324-971-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-324-971-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-300-630-965> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/300-630-965> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-300-630-965> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-300-630-965"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-300-630-965> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-171-811-214> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/171-811-214> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-171-811-214> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-171-811-214"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-171-811-214> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-627-789-023> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/627-789-023> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-627-789-023> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-627-789-023"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-627-789-023> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-846-830-998> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/846-830-998> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-846-830-998> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-846-830-998"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-846-830-998> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-697-697-912> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/697-697-912> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-697-697-912> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-697-697-912"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-697-697-912> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-253-603-224> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/253-603-224> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-253-603-224> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-253-603-224"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-253-603-224> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-163-695-782> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/163-695-782> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-163-695-782> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-163-695-782"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-163-695-782> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-793-930-224> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/793-930-224> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-793-930-224> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-793-930-224"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-793-930-224> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-197-058-331> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/197-058-331> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-197-058-331> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-197-058-331"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-197-058-331> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-611-522-035> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/611-522-035> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-611-522-035> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-611-522-035"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-611-522-035> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-251-325-678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/251-325-678> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-251-325-678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-251-325-678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-251-325-678> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-769-835-772> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/769-835-772> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-769-835-772> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-769-835-772"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-769-835-772> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-663-444-555> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/663-444-555> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-663-444-555> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-663-444-555"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-663-444-555> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-813-151-203> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/813-151-203> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-813-151-203> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-813-151-203"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-813-151-203> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-449-625-077> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/449-625-077> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-449-625-077> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-449-625-077"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-449-625-077> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-387-702-087> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/387-702-087> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-387-702-087> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-387-702-087"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-387-702-087> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-172-041-224> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/172-041-224> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-172-041-224> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-172-041-224"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-172-041-224> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-234-260-234> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/234-260-234> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-234-260-234> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-234-260-234"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-234-260-234> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-472-757-990> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/472-757-990> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-472-757-990> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-472-757-990"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-472-757-990> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-406-491-225> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/406-491-225> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-406-491-225> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-406-491-225"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-406-491-225> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-272-343-673> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/272-343-673> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-272-343-673> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-272-343-673"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-272-343-673> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-949-984-221> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/949-984-221> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-949-984-221> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-949-984-221"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-949-984-221> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-047-625-334> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/047-625-334> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-047-625-334> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-047-625-334"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-047-625-334> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-368-612-645> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/368-612-645> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-368-612-645> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-368-612-645"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-368-612-645> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-291-301-475> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/291-301-475> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-291-301-475> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-291-301-475"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-291-301-475> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-445-287-334> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/445-287-334> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-445-287-334> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-445-287-334"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-445-287-334> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-562-192-755> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/562-192-755> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-562-192-755> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-562-192-755"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-562-192-755> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-046-134-789> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/046-134-789> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-046-134-789> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-046-134-789"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-046-134-789> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-510-869-223> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/510-869-223> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-510-869-223> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-510-869-223"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-510-869-223> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-517-721-223> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/517-721-223> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-517-721-223> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-517-721-223"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-517-721-223> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-337-243-889> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/337-243-889> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-337-243-889> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-337-243-889"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-337-243-889> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-111-002-053> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/111-002-053> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-111-002-053> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-111-002-053"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-111-002-053> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-753-390-738> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/753-390-738> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-753-390-738> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-753-390-738"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-753-390-738> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-408-656-523> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/408-656-523> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-408-656-523> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-408-656-523"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-408-656-523> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-523-633-946> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/523-633-946> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-523-633-946> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-523-633-946"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-523-633-946> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-334-755-301> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/334-755-301> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-334-755-301> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-334-755-301"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-334-755-301> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-425-422-301> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/425-422-301> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-425-422-301> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-425-422-301"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-425-422-301> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-722-253-467> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/722-253-467> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-722-253-467> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-722-253-467"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-722-253-467> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-462-385> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/971-462-385> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-971-462-385> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-971-462-385"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-462-385> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-023-455> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/971-023-455> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-971-023-455> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-971-023-455"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-023-455> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-439-935-987> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/439-935-987> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-439-935-987> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-439-935-987"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-439-935-987> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-321-254> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/971-321-254> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-971-321-254> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-971-321-254"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-971-321-254> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-933-902-396> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/933-902-396> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-933-902-396> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-933-902-396"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-933-902-396> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-827-888-34X> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/827-888-34X> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-827-888-34X> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-827-888-34X"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-827-888-34X> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-798-555-235> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/798-555-235> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-798-555-235> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-798-555-235"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-798-555-235> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-752-700-102> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/752-700-102> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-752-700-102> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-752-700-102"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-752-700-102> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-604-100-876> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/604-100-876> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-604-100-876> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-604-100-876"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-604-100-876> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-215-248-902> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/215-248-902> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-215-248-902> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-215-248-902"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-215-248-902> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-685-717-326> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/685-717-326> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-685-717-326> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-685-717-326"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-685-717-326> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-934-487-263> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/934-487-263> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-934-487-263> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-934-487-263"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-934-487-263> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-016-377-114> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/016-377-114> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-016-377-114> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-016-377-114"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-016-377-114> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-127-505-203> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/127-505-203> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-127-505-203> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-127-505-203"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-127-505-203> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-393-980-210> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/393-980-210> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-393-980-210> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-393-980-210"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-393-980-210> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-274-122-304> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/274-122-304> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-274-122-304> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-274-122-304"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-274-122-304> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-325-191-295> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/325-191-295> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-325-191-295> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-325-191-295"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-325-191-295> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-133-306-062> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/european-hd/resource/person/133-306-062> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/european-hd/resource/identifier/sample-133-306-062> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "sample-133-306-062"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/european-hd/resource/biosample/sample-133-306-062> .

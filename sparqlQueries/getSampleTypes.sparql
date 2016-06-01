@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT DISTINCT ?url ?value {  
+
+    ?samples a ?url. 
+    ?url rdfs:subClassOf obo:OBI_0100051;
+        rdfs:label ?value 
+}

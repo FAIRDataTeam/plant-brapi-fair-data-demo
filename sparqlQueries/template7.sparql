@@ -1,0 +1,24 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dummy: <http://rdf.biosemantics.org/ontologies/dummy/>
+PREFIX rdcMeta: <http://rdf.biosemantics.org/ontologies/rd-connect/>
+PREFIX iao: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT (COUNT( DISTINCT ?donorURI) as ?numberOfPersons)  ?phenotypeURI ?phenotype ?diseaseURI ?disease ?registry ?registryURI  {
+      
+ VALUES(?phenotypeInput) {(<#phenotype#>)}   
+  {
+    ?phenotypeURI  rdfs:subClassOf* ?phenotypeInput.
+  } 
+  {    
+    ?donorURI dummy:hasDisease ?diseaseURI;
+               rdcMeta:59e1324d_567b_42e1_bc88_203004e660da ?phenotypeURI;  
+             rdfs:seeAlso ?registryDatasetURI.
+  }    
+  {       
+    ?registryDatasetURI dct:title ?registry;
+                      rdfs:seeAlso ?registryURI.   
+    ?diseaseURI rdfs:label ?disease.  
+    ?phenotypeURI rdfs:label ?phenotype.
+  }
+}  group by ?phenotypeURI ?phenotype ?diseaseURI ?disease ?registry ?registryURI

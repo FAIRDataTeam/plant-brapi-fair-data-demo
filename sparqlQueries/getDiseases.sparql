@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+
+SELECT DISTINCT ?url ?value { 
+
+    VALUES ?url {ordo:Orphanet_1440 ordo:Orphanet_399 ordo:Orphanet_72 ordo:Orphanet_100
+                    ordo:Orphanet_377789 ordo:Orphanet_377788 ordo:Orphanet_C001
+                }  
+    {
+        ?url rdfs:label ?value.
+    }
+}

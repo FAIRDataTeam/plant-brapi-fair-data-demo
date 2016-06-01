@@ -1,0 +1,38 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dummy: <http://rdf.biosemantics.org/ontologies/dummy/>
+PREFIX rdcMeta: <http://rdf.biosemantics.org/ontologies/rd-connect/>
+PREFIX iao: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?sample ?sampleURI ?biobank ?biobankURI ?disease ?diseaseURI ?registry ?registryURI {
+
+VALUES(?diseaseInput) {(<#disease#>)}   
+  {
+    ?donorURIInput dummy:hasDisease ?diseaseInput;
+               rdcMeta:59e1324d_567b_42e1_bc88_203004e660da ?phenotypeURI.
+  }    
+      
+  {    
+    ?donorURI dummy:hasDisease ?diseaseURI;             
+             rdcMeta:59e1324d_567b_42e1_bc88_203004e660da ?phenotypeURI;  
+             rdfs:seeAlso ?registryDatasetURI.
+  }   
+  {    
+    ?sampleURI a  ?sampleTypeURI;    
+               rdcMeta:e297332a_00a9_4ed0_b661_00dbd35aff95 ?donorURI;             
+               rdfs:seeAlso ?biobankDatasetURI. 
+    
+    ?sampleIdURI a rdcMeta:21f6df30_1f72_45fb_bfc1_2b3d1af1410a ;
+                    dct:identifier ?sample;	
+                    iao:IAO_0000219 ?sampleURI.
+  }  
+    FILTER (?diseaseURI != ?diseaseInput )
+     
+  {    
+    ?registryDatasetURI dct:title ?registry;
+                      rdfs:seeAlso ?registryURI.
+    ?biobankDatasetURI dct:title ?biobank;
+                      rdfs:seeAlso ?biobankURI.
+    ?diseaseURI rdfs:label ?disease.  
+  }
+}

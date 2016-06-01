@@ -1,0 +1,817 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9771> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5217> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9771> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9771"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9771> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5075> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8698> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5075> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5075"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5075> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6217> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9249> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6217> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6217"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6217> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8149> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4156> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8149> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8149"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8149> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8415> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7430> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8415> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8415"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8415> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4650> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7344> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4650> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4650"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4650> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5077> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8052> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5077> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5077"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5077> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7173> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4201> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7173> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7173"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7173> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7634> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6852> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7634> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7634"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7634> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3822> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6022> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3822> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3822"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3822> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5581> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9742> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5581> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5581"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5581> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8597> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1528> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8597> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8597"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8597> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8685> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3377> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8685> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8685"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8685> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9156> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7988> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9156> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9156"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9156> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5060> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4069> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5060> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5060"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5060> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1443> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4988> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1443> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1443"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1443> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1643> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4333> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1643> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1643"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1643> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4059> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6413> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4059> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4059"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4059> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8133> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1541> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8133> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8133"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8133> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4794> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7808> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4794> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4794"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4794> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5437> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3033> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5437> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5437"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5437> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2663> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2143> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2663> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2663"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2663> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9678> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7913> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9678> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9678"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9678> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7583> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9750> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7583> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7583"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7583> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5106> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9300> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5106> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5106"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5106> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7815> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4089> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7815> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7815"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7815> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8130> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1614> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8130> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8130"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8130> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2516> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5188> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2516> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2516"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2516> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2810> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2300> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2810> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2810"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2810> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4635> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8288> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4635> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4635"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4635> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5135> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4170> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5135> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5135"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5135> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8919> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3640> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8919> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8919"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8919> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4919> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7805> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4919> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4919"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4919> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7742> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5743> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7742> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7742"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7742> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4808> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9843> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4808> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4808"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4808> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2439> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2699> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2439> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2439"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2439> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5627> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3832> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5627> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5627"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5627> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1853> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9154> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1853> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1853"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1853> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6308> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8182> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6308> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6308"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6308> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4577> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4831> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4577> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4577"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4577> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5564> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1012> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5564> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5564"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5564> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5849> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3960> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5849> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5849"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5849> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4817> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5282> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4817> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4817"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4817> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8122> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5866> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8122> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8122"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8122> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8449> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7626> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8449> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8449"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8449> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3046> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7324> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3046> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3046"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3046> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6781> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5701> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6781> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6781"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6781> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1454> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7051> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1454> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1454"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1454> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8249> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2009> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8249> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8249"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8249> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1518> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3472> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1518> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1518"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1518> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9680> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5967> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9680> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9680"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9680> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9600> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1762> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9600> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9600"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9600> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7395> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8117> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7395> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7395"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7395> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9132> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5426> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9132> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9132"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9132> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2184> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5373> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2184> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2184"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2184> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4166> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5277> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4166> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4166"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4166> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1228> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6791> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1228> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1228"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1228> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6416> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6750> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6416> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6416"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6416> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1534> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7342> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1534> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1534"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1534> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4226> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1679> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4226> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4226"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4226> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6292> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5977> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6292> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6292"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6292> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4579> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9131> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4579> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4579"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4579> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4546> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9562> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4546> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4546"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4546> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1525> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7472> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1525> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1525"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1525> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7079> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9409> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7079> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7079"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7079> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4701> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8918> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4701> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4701"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4701> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9856> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2000> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9856> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9856"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9856> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9435> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8435> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9435> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9435"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9435> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5607> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7685> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5607> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5607"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5607> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8219> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6467> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8219> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8219"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8219> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7821> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5847> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7821> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7821"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7821> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5218> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8280> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5218> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5218"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5218> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1751> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9774> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1751> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1751"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1751> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8725> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7309> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/8725> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "8725"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/8725> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9605> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4301> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9605> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9605"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9605> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5278> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1621> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5278> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5278"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5278> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9050> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9950> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9050> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9050"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9050> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3379> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1328> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3379> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3379"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3379> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1842> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6784> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1842> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1842"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1842> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5293> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9634> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5293> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5293"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5293> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3179> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7985> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3179> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3179"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3179> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2292> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/4478> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2292> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2292"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2292> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2427> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9285> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/2427> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "2427"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/2427> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3310> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9960> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3310> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3310"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3310> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6026> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9792> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6026> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6026"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6026> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7152> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9441> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7152> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7152"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7152> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6702> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3155> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6702> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6702"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6702> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7032> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/1854> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/7032> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "7032"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/7032> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6769> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7422> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6769> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6769"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6769> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4701> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8124> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9728> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/2034> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9728> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9728"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9728> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3393> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9538> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3393> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3393"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3393> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5121> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/8296> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5121> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5121"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5121> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9521> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5744> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9521> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9521"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9521> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3512> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7154> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/3512> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "3512"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/3512> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6710> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6151> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/6710> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "6710"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/6710> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1199> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/5474> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1199> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1199"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1199> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9124> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/6453> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9124> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9124"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9124> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4220> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9868> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/4220> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "4220"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/4220> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1243> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/7346> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/1243> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "1243"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/1243> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5292> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/3069> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/5292> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "5292"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/5292> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9214> <http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/person/9080> ;
+	rdfs:seeAlso <http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1> ;
+	a <http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> .
+
+<http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/identifier/9214> a <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> ;
+	<http://purl.org/dc/terms/identifier> "9214"^^xsd:string ;
+	<http://purl.obolibrary.org/obo/IAO_0000219> <http://rdf.biosemantics.org/dataset/french-cohort-study-on-ataxia-telangiectasia/resource/biosample/9214> .

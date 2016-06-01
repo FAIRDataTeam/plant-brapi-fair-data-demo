@@ -1,0 +1,147 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.navbar-inverse{
+    background-color: #2952a3;
+    border-color: #2952a3;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #2952a3;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #EEE;
+    font-weight: bold;
+}
+
+.table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+option {
+    height:20px;
+    text-indent:30px;
+    font-size: 120%;
+    background-image:url(../images/dtl-tab-icon.png);
+    background-repeat:no-repeat;
+    background-position:3px 0;
+}
+
+.btn-voilet { 
+  color: #ffffff; 
+  background-color: #611BBD; 
+  border-color: #130269; 
+} 
+ 
+.btn-voilet:hover, 
+.btn-voilet:focus, 
+.btn-voilet:active, 
+.btn-voilet.active, 
+.open .dropdown-toggle.btn-voilet { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-voilet:active, 
+.btn-voilet.active, 
+.open .dropdown-toggle.btn-voilet { 
+  background-image: none; 
+} 
+ 
+.btn-voilet.disabled, 
+.btn-voilet[disabled], 
+fieldset[disabled] .btn-voilet, 
+.btn-voilet.disabled:hover, 
+.btn-voilet[disabled]:hover, 
+fieldset[disabled] .btn-voilet:hover, 
+.btn-voilet.disabled:focus, 
+.btn-voilet[disabled]:focus, 
+fieldset[disabled] .btn-voilet:focus, 
+.btn-voilet.disabled:active, 
+.btn-voilet[disabled]:active, 
+fieldset[disabled] .btn-voilet:active, 
+.btn-voilet.disabled.active, 
+.btn-voilet[disabled].active, 
+fieldset[disabled] .btn-voilet.active { 
+  background-color: #611BBD; 
+  border-color: #130269; 
+} 
+ 
+.btn-voilet .badge { 
+  color: #611BBD; 
+  background-color: #ffffff; 
+}
+
+
+.btn-red { 
+  color: #ffffff; 
+  background-color: #E60C87; 
+  border-color: #130269; 
+} 
+ 
+.btn-red:hover, 
+.btn-red:focus, 
+.btn-red:active, 
+.btn-red.active, 
+.open .dropdown-toggle.btn-red { 
+  color: #ffffff; 
+  background-color: #49247A; 
+  border-color: #130269; 
+} 
+ 
+.btn-red:active, 
+.btn-red.active, 
+.open .dropdown-toggle.btn-red { 
+  background-image: none; 
+} 
+ 
+.btn-red.disabled, 
+.btn-red[disabled], 
+fieldset[disabled] .btn-red, 
+.btn-red.disabled:hover, 
+.btn-red[disabled]:hover, 
+fieldset[disabled] .btn-red:hover, 
+.btn-red.disabled:focus, 
+.btn-red[disabled]:focus, 
+fieldset[disabled] .btn-red:focus, 
+.btn-red.disabled:active, 
+.btn-red[disabled]:active, 
+fieldset[disabled] .btn-red:active, 
+.btn-red.disabled.active, 
+.btn-red[disabled].active, 
+fieldset[disabled] .btn-red.active { 
+  background-color: #E60C87; 
+  border-color: #130269; 
+} 
+ 
+.btn-red .badge { 
+  color: #E60C87; 
+  background-color: #ffffff; 
+}

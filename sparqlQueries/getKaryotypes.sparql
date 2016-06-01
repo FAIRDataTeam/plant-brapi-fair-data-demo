@@ -1,0 +1,16 @@
+PREFIX rdcMeta: <http://rdf.biosemantics.org/ontologies/rd-connect/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dummy: <http://rdf.biosemantics.org/ontologies/dummy/>
+
+SELECT DISTINCT ?url ?value { 
+
+   {    
+    ?donorURI dummy:hasDisease ?diseaseURI;
+             rdfs:seeAlso ?registryDatasetURI;
+             rdcMeta:59e1324d_567b_42e1_bc88_203004e660da ?karyotypeInsURI.
+    ?karyotypeInsURI a ?url.
+  } 
+ 
+    ?url rdfs:subClassOf*  rdcMeta:13bcf65a_381d_4719_a4e5_36f47b519ca6;                                     
+        rdfs:label ?value.
+}

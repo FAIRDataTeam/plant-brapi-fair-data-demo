@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FAIR data demonstrator">
+    <meta name="author" content="Rajaram Kaliyaperumal">
+    <link rel='shortcut icon' href='images/dtl-tab-icon.png' type='image/x-icon'/ >
+
+    <title>FAIR Data Demonstrator</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/buttonLoader.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" >
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-dtl.png" alt="" class="img-thumbnail" width="204" height="136">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-fdp.png" alt="" class="img-thumbnail" width="160" height="140">
+                </a>
+                <ul class="nav navbar-nav">                    
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            
+            <div class="page-header text-center">
+              <h1>FAIR Data Demonstrator</h1>
+            </div>
+            
+            <div class="panel panel-info" id="step1">
+              <div class="panel-heading">
+                <h3 class="panel-title">Step 1 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Select query:</h3>
+              </div>
+              <div class="panel-body">
+                <select size="5" class="form-control" id="template">
+                </select>
+              </div>
+            </div>
+
+            <div class="panel panel-info" id="step2">
+              <div class="panel-heading">
+                <h3 class="panel-title">Step 2 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> By which value?</h3>
+              </div>
+              <div class="panel-body">
+                <div class="row" id="region">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Region</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>                  
+                  <div class="col-md-4">                      
+                      <input class="form-control" type="text" id="regionOption" list="regionDatalist" placeholder="e.g. Paternopoli" autocomplete="off">
+                      <datalist id="regionDatalist"></datalist>
+                  </div>
+                </div>
+                <p></p>
+                <div class="row" id="disease">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Disease</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
+<!--                  <div class="col-md-4">
+                      <select class="form-control" id="diseaseOption">
+                      </select>
+                  </div>-->
+                  <div class="col-md-4">                      
+                      <input class="form-control" type="text" id="diseaseOption" list="diseaseDatalist" placeholder="e.g. Ring chromosome 14" autocomplete="off">
+                      <datalist id="diseaseDatalist"></datalist>
+                  </div>
+                </div>
+                <p></p>
+                <div class="row" id="phenotype">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Phenotype</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
+<!--                   <div class="col-md-4">
+                      <select class="btn btn-primary btn-lg btn-block" id="phenotypeProperty">
+                          <option class="text-center" value="rdf:type">type</option>
+                          <option class="text-center" value="rdfs:subClassOf">subClassOf</option>
+                      </select>
+                  </div> -->
+                  <div class="col-md-4 ">                      
+                      <input class="form-control" type="text" id="phenotypeOption" list="phenotypeDatalist" placeholder="e.g. Wide mouth" autocomplete="off">
+                      <datalist id="phenotypeDatalist"></datalist>
+                  </div>
+                </div>
+                <p></p>
+                <div class="row" id="karyotype">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Karyotype</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
+<!--                  <div class="col-md-4">
+                      <select class="form-control" id="karyotypeOption">
+                      </select>
+                  </div>-->
+                  <div class="col-md-4">                      
+                      <input class="form-control" type="text" id="karyotypeOption" list="karyotypeDatalist" placeholder="e.g. Terminal deletion imbalance" autocomplete="off">
+                      <datalist id="karyotypeDatalist"></datalist>
+                  </div>
+                </div>
+                <p></p>
+                
+                <div class="row" id="sampleType">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Sample Type</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
+<!--                  <div class="col-md-4">
+                      <select class="form-control" id="sampleTypeOption">
+                      </select>
+                  </div>-->
+                  <div class="col-md-4">                      
+                      <input class="form-control" type="text" id="sampleTypeOption" list="sampleTypeDatalist" placeholder="e.g. DNA Specimen" autocomplete="off">
+                      <datalist id="sampleTypeDatalist"></datalist>
+                  </div>
+                </div>
+                <p></p>
+                <div class="row" id="breakpoint">
+                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Breakpoint</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
+<!--                  <div class="col-md-4">
+                      <select class="form-control" id="breakpointOption">
+                      </select>
+                  </div>-->
+                  <div class="col-md-4">                      
+                      <input class="form-control" type="text" id="breakpointOption" list="breakpointDatalist" placeholder="e.g. DISTAL" autocomplete="off">
+                      <datalist id="breakpointDatalist"></datalist>
+                  </div>
+                </div>
+              </div>
+               <div class="panel-footer panel-info">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4">
+                      <button type="button" class="btn btn-red btn-lg btn-block has-spinner" id="process" data-btn-text="Loading...">
+                          Process <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+                      </button>
+                  </div>
+                  <div class="col-md-4"></div>
+                </div>                
+               </div>
+            </div>            
+                
+            <div class="alert alert-danger fade in" id="errorPanel">                  
+            </div> 
+            <div class="alert alert-info fade in" id="infoPanel">                  
+            </div>  
+                
+            <div class="panel panel-info" id="step3">
+              <div class="panel-heading">
+                <h3 class="panel-title">Step 3 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Result:</h3>
+              </div>
+              <div class="panel-body">
+                  
+            <div class="alert alert-info fade in" id="noResultPanel">   
+                <p><strong> No result :</strong> Sorry no result available for these query params</p>
+            </div>  
+                <table class="table table-striped" id="results_table">
+            </table>
+              </div>
+            </div>
+
+       
+
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    
+    <footer class="footer">
+        <div class="container">
+          <p class="text-muted">Powered by : 
+              <a target="_blank" href="https://github.com/openlink/virtuoso-opensource">Virtuoso</a> 
+              --
+              <a target="_blank" href="http://rd-connect.eu/platform/biobanks/id-cards-linking-up-rare-disease-research-across-the-world/">ID-Cards</a> 
+              --
+              <a target="_blank" href="https://github.com/DTL-FAIRData/ODEX-FAIRDataPoint">FAIRDataPoint</a>
+          </p>
+        </div>      
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    
+    <!-- configuration files -->
+    <script src="js/config.js"></script>
+    
+    <!-- demo -->
+    <script src="js/demo.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>    <script src="js/simplePagination.js"></script>
+    
+    <script src="js/jquery.buttonLoader.js"></script>
+
+</body>
+
+</html>

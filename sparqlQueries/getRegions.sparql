@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbPedia: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?url ?value { 
+    ?s dbPedia:birthPlace ?url  .
+    ?url rdfs:label ?value.
+    FILTER ( lang(?value) = "en")
+}
+	

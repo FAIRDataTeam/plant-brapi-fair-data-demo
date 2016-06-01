@@ -1,0 +1,554 @@
+<http://rdf.biosemantics.org/ontologies/rd-connect/93e201d6_117d_4921_9f6c_185036efa986> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/93e201d6_117d_4921_9f6c_185036efa986> <http://www.w3.org/2000/01/rdf-schema#label> "EGA sample ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/93e201d6_117d_4921_9f6c_185036efa986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/2000/01/rdf-schema#comment> "'Experiment' here, in the context of the RD-Connect platform, refers to more than just the experimental process, but to the research object of process, samples, and data (thanks to David van Enckevort for his feedback)." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/2000/01/rdf-schema#label> "Experiment ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier for organisation that maintains (owns) one or more sample or data collections." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/2000/01/rdf-schema#label> "Biobank organisation ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/666d2bc5_b025_4e59_a8ef_d2b162afbf63> <http://www.w3.org/2000/01/rdf-schema#label> "Biobank sample or data collection ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/666d2bc5_b025_4e59_a8ef_d2b162afbf63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/2000/01/rdf-schema#comment> "an identifier for a person who donated something (in the context of biobanks, a sample from his/her body)" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/2000/01/rdf-schema#label> "Donor ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/2000/01/rdf-schema#comment> "an identifier for a person of whom a phenotype was determined in a tool such as Phenotips. In the tool the label for the ID may have been patient ID." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/2000/01/rdf-schema#label> "Phenotyped person ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier for an organisation that maintains (owns) a collection of information about patients" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/2000/01/rdf-schema#label> "Patient registry organisation ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2000/01/rdf-schema#comment> "an identifier for a person designated as a patient" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2000/01/rdf-schema#label> "Patient ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2000/01/rdf-schema#comment> "Sample and specimen seem to be used interchangably in our domain, but in ontologies these terms typically refer to different concepts. After discussing with David van Enckevort it seems that 'specimen' is the correct concept for the RD model. 'Sample' is used to denote a subset of things to represent a population. These are not specimen. \nSubclasses of Specimen may still have 'sample' as their label, if that is the term used in the resource from which it comes (e.g. EGA samples)." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition from EFO for specimen: A material which is obtained and stored for potential use during an investigation." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/2000/01/rdf-schema#comment> "included here to distinguish between the actual process of an experiment (this class) and the research object generally referred to by 'Experiment' in the RD-Connect platform (thanks to David van Enckevort for the feedback)." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/2000/01/rdf-schema#label> "Experimental process ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier for a collection (registry) of information about patients" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/2000/01/rdf-schema#label> "Patient registry ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> <http://www.w3.org/2000/01/rdf-schema#comment> "any identifier for a person" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> <http://www.w3.org/2000/01/rdf-schema#label> "Person ID"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Defined by Dublin Core identifier" .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier value" .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/2002/07/owl#versionIRI> <http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/2002/07/owl#imports> <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://docs.google.com/drawings/d/1XPPwVenEs1cdNXPgSRXRY5s8qDXi_d5L_9RA3iJWUQE/edit?usp=sharing"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://purl.org/pav/createdBy> "http://orcid.org/0000-0002-8691-772X"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://purl.org/pav/contributedBy> "http://orcid.org/0000-0002-2440-3993"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://purl.org/pav/contributedBy> "http://orcid.org/0000-0002-1215-167X"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology reflecting the key concepts for connecting biobanks and registries for rare disease use cases and the RD-Connect platform"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/2000/01/rdf-schema#label> "rd-connect biobank-registry ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:bE186E6DDx89 <http://www.w3.org/2002/07/owl#annotatedTarget> _:bE186E6DDx90 .
+_:bE186E6DDx90 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:bE186E6DDx90 <http://www.w3.org/2002/07/owl#onProperty> <http://www.openarchives.org/ore/terms/aggregates> .
+_:bE186E6DDx90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx89 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#equivalentClass> .
+_:bE186E6DDx89 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.openarchives.org/ore/terms/Aggregation> .
+_:bE186E6DDx89 <http://www.w3.org/2000/01/rdf-schema#comment> "Not sure why ORE or the Research Object model do not define this. ToDo: check if this this is correct." .
+_:bE186E6DDx89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://www.openarchives.org/ore/terms" .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregation from the ORE model as used by the Research Object model" .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://researchobject.org"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx88 .
+_:bE186E6DDx88 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:bE186E6DDx88 <http://www.w3.org/2002/07/owl#onProperty> <http://www.openarchives.org/ore/terms/aggregates> .
+_:bE186E6DDx88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/2000/01/rdf-schema#label> "Aggregation" .
+<http://www.openarchives.org/ore/terms/Aggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx86 <http://www.w3.org/2002/07/owl#annotatedTarget> _:bE186E6DDx87 .
+_:bE186E6DDx87 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.openarchives.org/ore/terms/Aggregation> .
+_:bE186E6DDx87 <http://www.w3.org/2002/07/owl#onProperty> <http://www.openarchives.org/ore/terms/isAggregatedBy> .
+_:bE186E6DDx87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx86 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#equivalentClass> .
+_:bE186E6DDx86 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.openarchives.org/ore/terms/AggregatedResource> .
+_:bE186E6DDx86 <http://www.w3.org/2000/01/rdf-schema#comment> "Not sure why ORE or the Research Object model do not define this. ToDo: check if this this is correct." .
+_:bE186E6DDx86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+<http://www.openarchives.org/ore/terms/AggregatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Aggregated Resource as defined by ORE and used by the Research Object model" .
+<http://www.openarchives.org/ore/terms/AggregatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "NB this class does nothing more than say that an entity is aggregated in at least one aggregate, whatever the sematic type of that entity is. (Rephrased from note in Research Object model.)" .
+<http://www.openarchives.org/ore/terms/AggregatedResource> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx85 .
+_:bE186E6DDx85 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.openarchives.org/ore/terms/Aggregation> .
+_:bE186E6DDx85 <http://www.w3.org/2002/07/owl#onProperty> <http://www.openarchives.org/ore/terms/isAggregatedBy> .
+_:bE186E6DDx85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.openarchives.org/ore/terms/AggregatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "Aggregated Resource" .
+<http://www.openarchives.org/ore/terms/AggregatedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx79 <http://www.w3.org/2002/07/owl#annotatedTarget> _:bE186E6DDx80 .
+_:bE186E6DDx80 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx81 .
+_:bE186E6DDx82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx82 .
+_:bE186E6DDx82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx83 .
+_:bE186E6DDx83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> .
+_:bE186E6DDx83 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx79 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#equivalentClass> .
+_:bE186E6DDx79 <http://www.w3.org/2002/07/owl#annotatedSource> <http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> .
+_:bE186E6DDx79 <http://www.w3.org/2000/01/rdf-schema#comment> "NB keep in mind that 'Experiment' here refers to the use in the RD Connect platform to denote an aggregate of resources." .
+_:bE186E6DDx79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx74 .
+_:bE186E6DDx74 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx75 .
+_:bE186E6DDx76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx76 .
+_:bE186E6DDx76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx77 .
+_:bE186E6DDx77 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> .
+_:bE186E6DDx77 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9ff02445_87f9_42a2_8ba9_05f67c8cb475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> <http://purl.obolibrary.org/obo/IAO_0000115> "A Specimen of blood"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> <http://www.w3.org/2000/01/rdf-schema#label> "Blood Specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/9d10cdcc_c695_477c_9ae6_0e3fa57dfd01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> <http://purl.obolibrary.org/obo/IAO_0000115> "A Specimen containing Lymphoblasts"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> <http://www.w3.org/2000/01/rdf-schema#label> "Lymphoblast Specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/897e877b_4710_4c65_b0ba_aa8b72104104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx69 .
+_:bE186E6DDx69 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx70 .
+_:bE186E6DDx71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx71 .
+_:bE186E6DDx71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx72 .
+_:bE186E6DDx72 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OMIABIS_0000010> .
+_:bE186E6DDx72 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/85f0b0ee_ac93_4149_9c68_b2b1577d28c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> <http://www.w3.org/2000/01/rdf-schema#comment> "Future work could include further extension of Research Object support such to enable annotation of aggregates and aggregated resources, and import and export or research object bundles." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> <http://www.w3.org/2000/01/rdf-schema#comment> "Experiment in the sense of an aggregate of resources associated with an experiment as refered to from the RD-Connect platform, such as samples, data producing experiments, data, etc.. (Thanks to David van Enckevort for his feedback)." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.openarchives.org/ore/terms/Aggregation> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> <http://www.w3.org/2000/01/rdf-schema#label> "Experiment"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/8a88e6f9_970c_45a6_bb60_f31329c71914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/744cab87_bba0_465b_9b61_31020381ffe1> <http://purl.obolibrary.org/obo/IAO_0000115> "A phenotypic characteristic relating to the observed behaviour of an organism"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/744cab87_bba0_465b_9b61_31020381ffe1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OGMS_0000023> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/744cab87_bba0_465b_9b61_31020381ffe1> <http://www.w3.org/2000/01/rdf-schema#label> "Behaviour"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/744cab87_bba0_465b_9b61_31020381ffe1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7b01acd8_f1f5_4f2b_944e_49e1d35000f7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/36cf6663_cb61_4c63_b68d_3bc7282f43fa> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7b01acd8_f1f5_4f2b_944e_49e1d35000f7> <http://www.w3.org/2000/01/rdf-schema#label> "Cytogenetic morphology"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7b01acd8_f1f5_4f2b_944e_49e1d35000f7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/666d2bc5_b025_4e59_a8ef_d2b162afbf63> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMIABIS_0000003> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/666d2bc5_b025_4e59_a8ef_d2b162afbf63> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx64 .
+_:bE186E6DDx64 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx65 .
+_:bE186E6DDx66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx66 .
+_:bE186E6DDx66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx67 .
+_:bE186E6DDx67 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OMIABIS_0000000> .
+_:bE186E6DDx67 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/666d2bc5_b025_4e59_a8ef_d2b162afbf63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6422a6c7_c9e4_4fe3_bc28_5e30c38e18bb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/225c02c7_b5eb_47e7_8fc5_5b01056907a0> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6422a6c7_c9e4_4fe3_bc28_5e30c38e18bb> <http://www.w3.org/2000/01/rdf-schema#label> "Abnormal karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6422a6c7_c9e4_4fe3_bc28_5e30c38e18bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx59 .
+_:bE186E6DDx59 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx60 .
+_:bE186E6DDx61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx61 .
+_:bE186E6DDx61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx62 .
+_:bE186E6DDx62 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rdf.biosemantics.org/ontologies/rd-connect/3e2b3205_96d8_4497_86c2_5ca69f62ab30> .
+_:bE186E6DDx62 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/61e6d88e_0a2e_4bc9_9aed_e3a6a5170a71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx49 .
+_:bE186E6DDx49 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx50 .
+_:bE186E6DDx51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx51 .
+_:bE186E6DDx51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx52 .
+_:bE186E6DDx52 <http://www.w3.org/2002/07/owl#someValuesFrom> _:bE186E6DDx53 .
+_:bE186E6DDx53 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx54 .
+_:bE186E6DDx55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx55 .
+_:bE186E6DDx55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx56 .
+_:bE186E6DDx56 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OGMS_0000023> .
+_:bE186E6DDx56 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:bE186E6DDx56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+_:bE186E6DDx53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx52 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6e18d2bd_cd20_468b_a508_fab520841b93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> <http://www.w3.org/2000/01/rdf-schema#label> "Terminal deletion imbalance"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5998bfd4_721c_45c2_8fd7_6eb3ecf301cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx44 .
+_:bE186E6DDx44 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx45 .
+_:bE186E6DDx46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx46 .
+_:bE186E6DDx46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx47 .
+_:bE186E6DDx47 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/ERO_0001843> .
+_:bE186E6DDx47 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/5aeda71b_13d1_4d3a_a582_b0426d0b58a3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/4a421526_7b34_424f_b44d_435f6c5ed816> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/6422a6c7_c9e4_4fe3_bc28_5e30c38e18bb> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/4a421526_7b34_424f_b44d_435f6c5ed816> <http://www.w3.org/2000/01/rdf-schema#label> "Ring 14 Karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/4a421526_7b34_424f_b44d_435f6c5ed816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/36cf6663_cb61_4c63_b68d_3bc7282f43fa> <http://purl.obolibrary.org/obo/IAO_0000115> "A phenotypic characteristic relating to the form or structure of an organism"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/36cf6663_cb61_4c63_b68d_3bc7282f43fa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OGMS_0000023> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/36cf6663_cb61_4c63_b68d_3bc7282f43fa> <http://www.w3.org/2000/01/rdf-schema#label> "Morphology"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/36cf6663_cb61_4c63_b68d_3bc7282f43fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/31076897_680a_44ce_ba23_67406c13fbbb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/ff4a3698_9829_48ef_9ee0_6972a54a9894> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/31076897_680a_44ce_ba23_67406c13fbbb> <http://www.w3.org/2000/01/rdf-schema#label> "Duplication imbalance"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/31076897_680a_44ce_ba23_67406c13fbbb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/3e2b3205_96d8_4497_86c2_5ca69f62ab30> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/3e2b3205_96d8_4497_86c2_5ca69f62ab30> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx39 .
+_:bE186E6DDx39 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx40 .
+_:bE186E6DDx41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx41 .
+_:bE186E6DDx41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx42 .
+_:bE186E6DDx42 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OBI_1110087> .
+_:bE186E6DDx42 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:bE186E6DDx42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+_:bE186E6DDx39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/3e2b3205_96d8_4497_86c2_5ca69f62ab30> <http://www.w3.org/2000/01/rdf-schema#label> "Human donor"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/3e2b3205_96d8_4497_86c2_5ca69f62ab30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of this class represents an identifier for a person who has the role of patient." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx34 .
+_:bE186E6DDx34 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx35 .
+_:bE186E6DDx36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx36 .
+_:bE186E6DDx36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx37 .
+_:bE186E6DDx37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> .
+_:bE186E6DDx37 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/27f64853_1c9c_476c_8e58_e5b01e3d1afa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/225c02c7_b5eb_47e7_8fc5_5b01056907a0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/7b01acd8_f1f5_4f2b_944e_49e1d35000f7> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/225c02c7_b5eb_47e7_8fc5_5b01056907a0> <http://www.w3.org/2000/01/rdf-schema#label> "Karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/225c02c7_b5eb_47e7_8fc5_5b01056907a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMIABIS_0001046> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx29 .
+_:bE186E6DDx29 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx30 .
+_:bE186E6DDx31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx31 .
+_:bE186E6DDx31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx32 .
+_:bE186E6DDx32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OBI_0100051> .
+_:bE186E6DDx32 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/21f6df30_1f72_45fb_bfc1_2b3d1af1410a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/13bcf65a_381d_4719_a4e5_36f47b519ca6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/7b01acd8_f1f5_4f2b_944e_49e1d35000f7> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/13bcf65a_381d_4719_a4e5_36f47b519ca6> <http://www.w3.org/2000/01/rdf-schema#label> "Molecular karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/13bcf65a_381d_4719_a4e5_36f47b519ca6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> <http://purl.obolibrary.org/obo/IAO_0000115> "A Specimen containing Fibroblasts"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> <http://www.w3.org/2000/01/rdf-schema#label> "Fibroblast Specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1c2b44e2_fc77_4c99_848c_ab7f8934d24a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx24 .
+_:bE186E6DDx24 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx25 .
+_:bE186E6DDx26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx26 .
+_:bE186E6DDx26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx27 .
+_:bE186E6DDx27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OBI_0000471> .
+_:bE186E6DDx27 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/1a64601d_d26f_4bf1_8911_4c372c2053be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> <http://www.w3.org/2000/01/rdf-schema#label> "Interstitial deletion imbalance"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/00881070_2100_450a_ba57_5f7ac43c25ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/ff4a3698_9829_48ef_9ee0_6972a54a9894> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/13bcf65a_381d_4719_a4e5_36f47b519ca6> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/ff4a3698_9829_48ef_9ee0_6972a54a9894> <http://www.w3.org/2000/01/rdf-schema#label> "Abnormal molecular karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/ff4a3698_9829_48ef_9ee0_6972a54a9894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0842> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx19 .
+_:bE186E6DDx19 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx20 .
+_:bE186E6DDx21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx21 .
+_:bE186E6DDx21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx22 .
+_:bE186E6DDx22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OMIABIS_0001002> .
+_:bE186E6DDx22 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0842> .
+_:bE186E6DDx19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e961c95d_6559_4b34_a1a9_1de2b8eb4384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/31076897_680a_44ce_ba23_67406c13fbbb> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> <http://www.w3.org/2000/01/rdf-schema#label> "Duplication and deletion imbalance"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/de2bc1a8_3cdf_4086_9021_abfedf7fbefd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of this class is a person who has the role of patient" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx14 .
+_:bE186E6DDx14 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx15 .
+_:bE186E6DDx16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx16 .
+_:bE186E6DDx16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx17 .
+_:bE186E6DDx17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OBI_0000093> .
+_:bE186E6DDx17 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:bE186E6DDx17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+_:bE186E6DDx14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> <http://www.w3.org/2000/01/rdf-schema#label> "Patient"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/d212d920_6507_45fc_9751_830485f89425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx9 .
+_:bE186E6DDx9 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx10 .
+_:bE186E6DDx11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx11 .
+_:bE186E6DDx11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx12 .
+_:bE186E6DDx12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+_:bE186E6DDx12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000219> .
+_:bE186E6DDx12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/IAO_0020000> .
+_:bE186E6DDx9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/c8473177_ed3a_45c8_9e51_60c15f0d8742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> <http://purl.obolibrary.org/obo/IAO_0000115> "A specimen containing DNA"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> <http://www.w3.org/2000/01/rdf-schema#label> "DNA Specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/bf26941c_a1e3_47ca_8995_4ef0b2b58477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> <http://purl.obolibrary.org/obo/IAO_0000115> "A Specimen containing Leukocytes"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> <http://www.w3.org/2000/01/rdf-schema#label> "Leukocyte Specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/b38d73b3_462e_414c_bd40_a10105889c7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/ff4a3698_9829_48ef_9ee0_6972a54a9894> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> <http://www.w3.org/2000/01/rdf-schema#label> "Deletion imbalance"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/aba6818a_6543_4380_b4db_b6ac22ab3a6d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/13bcf65a_381d_4719_a4e5_36f47b519ca6> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> <http://www.w3.org/2000/01/rdf-schema#label> "Normal molecular karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a6c6a8e9_2a60_4adc_8e46_876c539acd4e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a2cec272_351f_4d86_9bf7_bbc61bfc31cf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.biosemantics.org/ontologies/rd-connect/225c02c7_b5eb_47e7_8fc5_5b01056907a0> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a2cec272_351f_4d86_9bf7_bbc61bfc31cf> <http://www.w3.org/2000/01/rdf-schema#label> "Normal karyotype"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/a2cec272_351f_4d86_9bf7_bbc61bfc31cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMIABIS_0001046> <http://www.w3.org/2000/01/rdf-schema#comment> "specimen ID as defined by OBIB" .
+<http://purl.obolibrary.org/obo/OMIABIS_0001046> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0020000> .
+<http://purl.obolibrary.org/obo/OMIABIS_0001046> <http://www.w3.org/2000/01/rdf-schema#label> "specimen ID" .
+<http://purl.obolibrary.org/obo/OMIABIS_0001046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://purl.obolibrary.org/obo/IAO_0000118> "patient register data"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://purl.obolibrary.org/obo/IAO_0000117> "Martin Fransson"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://www.w3.org/2000/01/rdf-schema#comment> "It can be said to be a formal record of an internationally agreed minimum amount of information about clinical trial."@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://purl.obolibrary.org/obo/IAO_0000117> "Alice Nzinga"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://purl.obolibrary.org/obo/IAO_0000115> "A data set of collected secondary data related to patients with a specific diagnosis, condition, or procedure and plays an important role in post marketing surveillance of pharmaceuticals."@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://www.w3.org/2000/01/rdf-schema#comment> "Note by Marco: I did not find a concept pertaining to a patient registry that was modelled in an equivalent way as 'biobank sample or data collection'. In OBIB 'patient registry data' and 'biobank sample or data collection' are in different branches." .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://data.bioontology.org/metadata/prefixIRI> "OMIABIS:0001002"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://www.w3.org/2000/01/rdf-schema#label> "patient registry data"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0001002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://purl.obolibrary.org/obo/IAO_0000118> "biobank juristic person"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://purl.obolibrary.org/obo/IAO_0000115> "An organization bearing legal personality that ownes or adminstrates a biobank."@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://purl.obolibrary.org/obo/IAO_0000115> "An organization bearing legal personality that ownes or adminstrates a biobank." .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://purl.obolibrary.org/obo/IAO_0000117> "Mathias Brochhausen" .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://purl.obolibrary.org/obo/ERO_0001844"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://data.bioontology.org/metadata/prefixIRI> "OMIABIS:0000010"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000245> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "Biobank organization"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000003> <http://www.w3.org/2000/01/rdf-schema#comment> "Biobank name as defined by OBIB. Also intended for biobank identifiers." .
+<http://purl.obolibrary.org/obo/OMIABIS_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0020000> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "biobank proper name" .
+<http://purl.obolibrary.org/obo/OMIABIS_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000000> <http://www.w3.org/2000/01/rdf-schema#comment> "Biobank as defined by OBIB: A biobank is a collection of samples of biological substances (e.g. tissue, blood, DNA) which are linked to data about the samples and their donors. They have a dual nature as collections of samples and data." .
+<http://purl.obolibrary.org/obo/OMIABIS_0000000> <http://www.w3.org/2000/01/rdf-schema#label> "Biobank sample or data collection" .
+<http://purl.obolibrary.org/obo/OMIABIS_0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ogms.owl> .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://purl.obolibrary.org/obo/IAO_0000115> "A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species."@en .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://purl.obolibrary.org/obo/IAO_0000111> "phenotype" .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://data.bioontology.org/metadata/prefixIRI> "OGMS:0000023"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "phenotype" .
+<http://purl.obolibrary.org/obo/OGMS_0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_1110087> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of this class represents the role of donor.\nThis class is from the Ontology of Biomedical Investigations (OBI) that is also used in the biobank ontology (OBIB): a role which inheres in an organism or part thereof from which any part including cell, organ or tissue is removed with the intention that the donated part will be placed into another organism and/or cultured in vitro." .
+<http://purl.obolibrary.org/obo/OBI_1110087> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<http://purl.obolibrary.org/obo/OBI_1110087> <http://www.w3.org/2000/01/rdf-schema#label> "Donor role" .
+<http://purl.obolibrary.org/obo/OBI_1110087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0100051> <http://www.w3.org/2000/01/rdf-schema#comment> "Sample and specimen seem to be used interchangably in our domain, but in ontologies these terms typically refer to different concepts. After discussing with David van Enckevort it seems that 'specimen' is the correct concept for the RD model. 'Sample' is used to denote a subset of things to represent a population. These are not specimen. \nSubclasses of Specimen may still have 'sample' as their label, if that is the term used in the resource from which it comes (e.g. EGA samples)." .
+<http://purl.obolibrary.org/obo/OBI_0100051> <http://www.w3.org/2000/01/rdf-schema#comment> "From EFO: A material which is obtained and stored for potential use during an investigation." .
+<http://purl.obolibrary.org/obo/OBI_0100051> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx8 .
+_:bE186E6DDx8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/OBI_0000112> .
+_:bE186E6DDx8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:bE186E6DDx8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.obolibrary.org/obo/OBI_0100051> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen" .
+<http://purl.obolibrary.org/obo/OBI_0100051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/2000/01/rdf-schema#comment> "Used as the class for experiments. From OBO foundry: a planned process that realizes the concretization of a study design." .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/2000/01/rdf-schema#comment> "We assume that all experiments in the RD-Connect platform are planned processes based on a study design." .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000011> .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/2000/01/rdf-schema#label> "study design execution" .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/2000/01/rdf-schema#label> "Experiment" .
+<http://purl.obolibrary.org/obo/OBI_0000471> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000111> "organization"@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000112> "PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods."@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000116> "BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:\n1) there are organization_member_roles (president, treasurer, branch\neditor), with individual persons as bearers\n2) there are organization_roles (employer, owner, vendor, patent holder)\n3) an organization has a charter / rules / bylaws, which specify what roles\nthere are, how they should be realized, and how to modify the\ncharter/rules/bylaws themselves.\nIt is debatable what the organization itself is (some kind of dependent\ncontinuant or an aggregate of people). This also determines who/what the\nbearer of organization_roles' are. My personal favorite is still to define\norganization as a kind of 'legal entity', but thinking it through leads to\nall kinds of questions that are clearly outside the scope of OBI.\nInterestingly enough, it does not seem to matter much where we place\norganization itself, as long as we can subclass it (University, Corporation,\nGovernment Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,\nW3C, University of Oklahoma), and have it play roles.\nThis leads to my proposal: We define organization through the statements 1 -\n3 above, but without an 'is a' statement for now. We can leave it in its\ncurrent place in the is_a hierarchy (material entity) or move it up to\n'continuant'. We leave further clarifications to BFO, and close this issue\nfor now."@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Susanna Sansone"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Philippe Rocca-Serra"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://data.bioontology.org/metadata/prefixIRI> "OBI:0000245"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP: OBI"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://www.w3.org/2000/01/rdf-schema#label> "organization"@en .
+<http://purl.obolibrary.org/obo/OBI_0000245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000112> <http://www.w3.org/2000/01/rdf-schema#comment> "ToDo: work out role of Specimen role in ontology." .
+<http://purl.obolibrary.org/obo/OBI_0000112> <http://www.w3.org/2000/01/rdf-schema#comment> "From OBI: a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation" .
+<http://purl.obolibrary.org/obo/OBI_0000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<http://purl.obolibrary.org/obo/OBI_0000112> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen role" .
+<http://purl.obolibrary.org/obo/OBI_0000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000093> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of this class represents the role of patient. This class is from the Ontology of Biomedical Investigations (OBI) that is also used in the biobank ontology (OBIB)."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000093> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<http://purl.obolibrary.org/obo/OBI_0000093> <http://www.w3.org/2000/01/rdf-schema#label> "Patient role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/OBI_0000093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/2000/01/rdf-schema#comment> "Best match for 'experiment' from OBO foundy ontologies, and as used by OBIB: A processual entity that realizes a plan which is the concretization of a plan specification." .
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "Planned process" .
+<http://purl.obolibrary.org/obo/OBI_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://www.w3.org/2000/01/rdf-schema#label> "Homo sapiens" .
+<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx7 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#equivalentClass> .
+_:bE186E6DDx7 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.obolibrary.org/obo/IAO_0020000> .
+_:bE186E6DDx7 <http://www.w3.org/2002/07/owl#annotatedSource> <http://edamontology.org/data_0842> .
+_:bE186E6DDx7 <http://www.w3.org/2000/01/rdf-schema#comment> "ToDo: decide if this mapping should be in rdc-mapping and if EDAM or OBIB is the preferred ontology for rdc-meta." .
+_:bE186E6DDx7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+<http://purl.obolibrary.org/obo/IAO_0020000> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier from IAO as used by OBIB" .
+<http://purl.obolibrary.org/obo/IAO_0020000> <http://www.w3.org/2000/01/rdf-schema#label> "identifier" .
+<http://purl.obolibrary.org/obo/IAO_0020000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000123> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://purl.obolibrary.org/obo/IAO_0000119> "PERSON: Scott Hoffmann"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Nicole Vasilevsky"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://purl.obolibrary.org/obo/IAO_0000115> "An organization dedicated to the collection, storage and dissemination of a set of scientific or clinical data."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OBI_0000245> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://www.w3.org/2000/01/rdf-schema#label> "Registry organization"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/ERO_0001843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/2000/01/rdf-schema#comment> "Role as defined by BFO. A role is dependent on another entity, e.g. the role of patient depends on the patient it is the role of." .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<http://purl.obolibrary.org/obo/BFO_0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:bE186E6DDx6 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2002/07/owl#equivalentClass> .
+_:bE186E6DDx6 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.obolibrary.org/obo/IAO_0020000> .
+_:bE186E6DDx6 <http://www.w3.org/2002/07/owl#annotatedSource> <http://edamontology.org/data_0842> .
+_:bE186E6DDx6 <http://www.w3.org/2000/01/rdf-schema#comment> "ToDo: decide if this mapping should be in rdc-mapping and if EDAM or OBIB is the preferred ontology for rdc-meta." .
+_:bE186E6DDx6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://edamontology.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2000/01/rdf-schema#comment> "General class for identifiers from the EDAM ontology."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/data_0006> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2002/07/owl#equivalentClass> _:bE186E6DDx1 .
+_:bE186E6DDx1 <http://www.w3.org/2002/07/owl#intersectionOf> _:bE186E6DDx2 .
+_:bE186E6DDx3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bE186E6DDx2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bE186E6DDx3 .
+_:bE186E6DDx3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bE186E6DDx4 .
+_:bE186E6DDx4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:bE186E6DDx4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/identifier> .
+_:bE186E6DDx4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:bE186E6DDx2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://edamontology.org/data_0006> .
+_:bE186E6DDx1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.obolibrary.org/obo/IAO_0020000> .
+<http://edamontology.org/data_0842> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://edamontology.org/data_0842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/data_0006> <http://www.w3.org/2000/01/rdf-schema#comment> "General class for data records. From EDAM: Information, represented in an information artefact (data record) that is 'understandable' by dedicated computational tools that can use the data as input or produce it as output." .
+<http://edamontology.org/data_0006> <http://www.w3.org/2000/01/rdf-schema#label> "Data" .
+<http://edamontology.org/data_0006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edamontology.org/data_0842> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.openarchives.org/ore/terms/isAggregatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.openarchives.org/ore/terms/Aggregation> .
+<http://www.openarchives.org/ore/terms/isAggregatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.openarchives.org/ore/terms/AggregatedResource> .
+<http://www.openarchives.org/ore/terms/isAggregatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "is aggregated by as defined by ORE and used by the Research Object model" .
+<http://www.openarchives.org/ore/terms/isAggregatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.openarchives.org/ore/terms/isAggregatedBy> .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.openarchives.org/ore/terms/Aggregation> .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.openarchives.org/ore/terms/AggregatedResource> .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/2000/01/rdf-schema#comment> "aggregates as defined by ORE and the Research Object model" .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/2000/01/rdf-schema#comment> "aggregates" .
+<http://www.openarchives.org/ore/terms/aggregates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/2000/01/rdf-schema#comment> "ToDo: find a superproperty in a commonly used ontology" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to specify that a donor provided a specimen. This specific property was created to enable refactoring the superproperty of this property." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/2000/01/rdf-schema#label> "person provided specimen"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/OGMS_0000023> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking a person to an phenotypic observed characteristic"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://www.w3.org/2000/01/rdf-schema#label> "displays"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/59e1324d_567b_42e1_bc88_203004e660da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.biosemantics.org/ontologies/rd-connect/6c9783cd_d632_4e8b_bc0c_a83ea200f1b1> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/OBI_0100051> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation to specify that a specimen was obtained from a donor. This specific property was created to enable refactoring the superproperty of this property." .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2000/01/rdf-schema#comment> "ToDo: find a superproperty in a commonly used ontology" .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/2000/01/rdf-schema#label> "obtained from human donor"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/e297332a_00a9_4ed0_b661_00dbd35aff95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2000/01/rdf-schema#comment> "From the OBO Relation ontology: \"a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence\""@en .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/2000/01/rdf-schema#label> "has role"@en .
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ro.owl> .
+<http://purl.obolibrary.org/obo/RO_0000086> <http://www.w3.org/2000/01/rdf-schema#label> "has quality"@en .
+<http://purl.obolibrary.org/obo/RO_0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/2000/01/rdf-schema#label> "role of" .
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://purl.obolibrary.org/obo/IAO_0000115> "a is owned by b if b has complete power over a. All rights and obligations of ownership are grounded in this (primitive) relation. The claims and obligations of ownership can be partially transferred to a third party by the owner, b."@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://purl.obolibrary.org/obo/IAO_0000119> "Reinach, A. S\u00E4mtliche Werke. Texkritische Ausgabe, M\u00FCnchen: Philosophia Verlag, 1989, p.189-204." .
+<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://www.w3.org/2000/01/rdf-schema#label> "is owned by"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.obolibrary.org/obo/OMIABIS_0000048> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://purl.obolibrary.org/obo/IAO_0000600> "This is a primitive relation. This relation is the foundation to the owners right to have the owned entity at his/her full disposal. "@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://purl.org/dc/elements/1.1/source> "Reinach, A. S\u00E4mtliche Werke. Texkritische Ausgabe, M\u00FCnchen: Philosophia Verlag, 1989, p.189-204." .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://purl.obolibrary.org/obo/IAO_0000117> "Mathias Brochhausen" .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "owns"@en .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/OMIABIS_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000219> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation from the Information Artefact Ontology to link instances of information artefacts to instances of real entities. Thus far the best relation I could find.\nDefinition from IAO: denotes is a primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically." .
+<http://purl.obolibrary.org/obo/IAO_0000219> <http://www.w3.org/2000/01/rdf-schema#label> "denotes" .
+<http://purl.obolibrary.org/obo/IAO_0000219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/2000/01/rdf-schema#comment> "has part from OBO Foundry Relation Ontology as used by OBIB" .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/2000/01/rdf-schema#label> "has part" .
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.obolibrary.org/obo/BFO_0000051> .
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of from OBO Foundry Relation Ontology as used by OBIB" .
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.w3.org/2000/01/rdf-schema#label> "is part of" .
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edamontology.org/data_0842> .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://edamontology.org/data_0006> .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/2000/01/rdf-schema#comment> "EDAM:\n'A is_identifier_of B' defines for the subject A, that it is an identifier of the object B.,Subject A can either be a concept that is an 'Identifier', or an entity outside of an ontology (or an ontology concept in a role of an entity being semantically annotated) that is an 'Identifier' or is in the role of an 'Identifier'. Object B can be any concept or entity outside of an ontology. In EDAM, only 'is_identifier_of' is explicitly defined between EDAM concepts (only 'Identifier' 'is_identifier_of' 'Data'). The inverse, 'has_identifier', is not explicitly defined." .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Note the Domain and Range: Identifier and Data respectively." .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/2000/01/rdf-schema#label> "is identifier of" .
+<http://edamontology.org/is_identifier_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://edamontology.org/has_identifier> <http://www.w3.org/2002/07/owl#inverseOf> <http://edamontology.org/is_identifier_of> .
+<http://edamontology.org/has_identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://edamontology.org/data_0842> .
+<http://edamontology.org/has_identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://edamontology.org/data_0006> .
+<http://edamontology.org/has_identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "has identifier property from EDAM. Note the domain and range: Data and Identifier respectively." .
+<http://edamontology.org/has_identifier> <http://www.w3.org/2000/01/rdf-schema#label> "has_identifier"@en .
+<http://edamontology.org/has_identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.biosemantics.org/ontologies/rd-connect/6422a6c7_c9e4_4fe3_bc28_5e30c38e18bb> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> <http://www.w3.org/2000/01/rdf-schema#label> "breakpoint localization"@en .
+<http://rdf.biosemantics.org/ontologies/rd-connect/7e3fe231_01b9_46b9_8770_f5a5c598d04f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.bioontology.org/metadata/prefixIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-meta> <http://www.w3.org/2002/07/owl#imports> <http://rdf.biosemantics.org/ontologies/rd-connect/rdc-core> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-meta> <http://purl.org/pav/createdBy> "http://orcid.org/0000-0002-8691-772X"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-meta> <http://www.w3.org/2000/01/rdf-schema#comment> "Rare disease connect metamodel. This model links rare disease core model classes and properties to superclasses and superproperties in selected preferred ontologies. Additional relations with relevant ontologies can be found in the mapping model."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.biosemantics.org/ontologies/rd-connect/rdc-meta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
