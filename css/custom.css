@@ -53,9 +53,13 @@ option {
     background-position:3px 0;
 }
 
+/*
+Voilet color button
+*/
+
 .btn-voilet { 
   color: #ffffff; 
-  background-color: #611BBD; 
+  background-color: #461B7D; 
   border-color: #130269; 
 } 
  
@@ -90,20 +94,24 @@ fieldset[disabled] .btn-voilet:active,
 .btn-voilet.disabled.active, 
 .btn-voilet[disabled].active, 
 fieldset[disabled] .btn-voilet.active { 
-  background-color: #611BBD; 
+  background-color: #461B7D; 
   border-color: #130269; 
 } 
  
 .btn-voilet .badge { 
-  color: #611BBD; 
+  color: #461B7D; 
   background-color: #ffffff; 
 }
 
 
+/*
+Red color button
+*/
+
 .btn-red { 
   color: #ffffff; 
   background-color: #E60C87; 
-  border-color: #130269; 
+  border-color: #69023C; 
 } 
  
 .btn-red:hover, 
@@ -112,8 +120,8 @@ fieldset[disabled] .btn-voilet.active {
 .btn-red.active, 
 .open .dropdown-toggle.btn-red { 
   color: #ffffff; 
-  background-color: #49247A; 
-  border-color: #130269; 
+  background-color: #7A245C; 
+  border-color: #69023C; 
 } 
  
 .btn-red:active, 
@@ -138,10 +146,65 @@ fieldset[disabled] .btn-red:active,
 .btn-red[disabled].active, 
 fieldset[disabled] .btn-red.active { 
   background-color: #E60C87; 
-  border-color: #130269; 
+  border-color: #69023C; 
 } 
  
 .btn-red .badge { 
   color: #E60C87; 
   background-color: #ffffff; 
 }
+
+/* 
+Sticky footer styles
+*/
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #wrap > .container {
+        padding-top: 60px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      code {
+        font-size: 80%;
+      }

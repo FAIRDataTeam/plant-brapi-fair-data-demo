@@ -87,7 +87,7 @@
               </div>
               <div class="panel-body">
                 <div class="row" id="region">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Region</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Region</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>                  
                   <div class="col-md-4">                      
                       <input class="form-control" type="text" id="regionOption" list="regionDatalist" placeholder="e.g. Paternopoli" autocomplete="off">
@@ -96,7 +96,7 @@
                 </div>
                 <p></p>
                 <div class="row" id="disease">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Disease</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Disease</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
 <!--                  <div class="col-md-4">
                       <select class="form-control" id="diseaseOption">
@@ -109,10 +109,10 @@
                 </div>
                 <p></p>
                 <div class="row" id="phenotype">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Phenotype</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Phenotype</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
 <!--                   <div class="col-md-4">
-                      <select class="btn btn-primary btn-lg btn-block" id="phenotypeProperty">
+                      <select class="btn btn-voilet btn-lg btn-block" id="phenotypeProperty">
                           <option class="text-center" value="rdf:type">type</option>
                           <option class="text-center" value="rdfs:subClassOf">subClassOf</option>
                       </select>
@@ -124,7 +124,7 @@
                 </div>
                 <p></p>
                 <div class="row" id="karyotype">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Karyotype</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Karyotype</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
 <!--                  <div class="col-md-4">
                       <select class="form-control" id="karyotypeOption">
@@ -138,7 +138,7 @@
                 <p></p>
                 
                 <div class="row" id="sampleType">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Sample Type</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Sample Type</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
 <!--                  <div class="col-md-4">
                       <select class="form-control" id="sampleTypeOption">
@@ -151,7 +151,7 @@
                 </div>
                 <p></p>
                 <div class="row" id="breakpoint">
-                  <div class="col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Breakpoint</button></div>
+                  <div class="col-md-4"><button type="button" class="btn btn-voilet btn-lg btn-block">Breakpoint</button></div>
                   <div class="col-md-4"><button type="button" class="btn btn-default btn-lg btn-block"><i>type</i></button></div>
 <!--                  <div class="col-md-4">
                       <select class="form-control" id="breakpointOption">
@@ -202,17 +202,22 @@
     </div>
     <!-- /.container -->
     
-    <footer class="footer">
-        <div class="container">
-          <p class="text-muted">Powered by : 
-              <a target="_blank" href="https://github.com/openlink/virtuoso-opensource">Virtuoso</a> 
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Supported projects :-
+              <a target="_blank" href="http://rd-connect.eu/">RD-CONNECT</a>               
               --
-              <a target="_blank" href="http://rd-connect.eu/platform/biobanks/id-cards-linking-up-rare-disease-research-across-the-world/">ID-Cards</a> 
+              <a target="_blank" href="https://www.elixir-europe.org/">
+                  ELIXIR</a> 
               --
-              <a target="_blank" href="https://github.com/DTL-FAIRData/ODEX-FAIRDataPoint">FAIRDataPoint</a>
-          </p>
-        </div>      
-    </footer>
+              <a target="_blank" href="https://www.bbmri.nl/">
+                  BBMRI-NL</a>         
+        </p>
+      </div>
+    </div>   
+
+   
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
