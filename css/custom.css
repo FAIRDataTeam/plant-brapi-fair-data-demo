@@ -54,6 +54,13 @@ option {
 }
 
 /*
+Gradient header 
+*/
+nav#header {
+    background: linear-gradient(90deg, #1f3d7a, #4d94ff);
+}
+
+/*
 Voilet color button
 */
 
