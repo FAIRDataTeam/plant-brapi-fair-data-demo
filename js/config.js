@@ -18,7 +18,13 @@ var TEMPLATE_QUERIES = {
                 variables: ['species', 'phenotype'], 
                 query : readFile('sparqlQueries/template2.sparql', 'text')
 		
-            }   
+            },
+        4 : {
+		text : 'Give me studies related to  particular phenotype and particular species (Use skos:relatedTo mappings)', 
+                variables: ['species', 'phenotype'], 
+                query : readFile('sparqlQueries/template4.sparql', 'text')
+		
+            }    
     };
 
 var VARIABLE_QUERIES = {

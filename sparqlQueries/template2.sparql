@@ -1,28 +1,30 @@
 PREFIX dct: <http://purl.org/dc/terms/>
-PREFIX dummy: <http://rdf.biosemantics.org/ontologies/dummy/>
-PREFIX rdcMeta: <http://rdf.biosemantics.org/ontologies/rd-connect/>
-PREFIX iao: <http://purl.obolibrary.org/obo/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX myonto: <http://mydomain.com/ontoglies/myplantOnto/>
 
-SELECT (COUNT( DISTINCT ?sampleURI) as ?numberOfSamples)  ?diseaseURI ?disease ?biobank ?biobankURI ?registry ?registryURI  {
-  
- VALUES(?diseaseInput) {(<#disease#>)}   
+SELECT DISTINCT (COUNT (DISTINCT ?studyURI) as ?numberOfStudies) ?publisherURI ?publisher ?speciesURI (STR(?species) AS ?species) ?phenotypeURI (STR(?phenotype) AS ?phenotype)  {
+      
+
+  VALUES(?phenotypeInput ?speciesInput) {(<#phenotype#> <#species#>)}   
+  #{
+   # ?speciesURI  rdfs:subClassOf* ?speciesInput.
+  #} 
+
   {
-    ?diseaseURI  rdfs:subClassOf* ?diseaseInput.
-  }
-  {    
-    ?donorURI dummy:hasDisease ?diseaseURI; 
-              rdfs:seeAlso ?registryDatasetURI.
+    ?phenotypeURI  rdfs:subClassOf* ?phenotypeInput.
   }   
   {    
-    ?sampleURI rdcMeta:e297332a_00a9_4ed0_b661_00dbd35aff95 ?donorURI;
-               rdfs:seeAlso ?biobankDatasetURI. 
-  }    
-  {    
-    ?biobankDatasetURI dct:title ?biobank;
-                      rdfs:seeAlso ?biobankURI.
-    ?registryDatasetURI dct:title ?registry;
-                      rdfs:seeAlso ?registryURI.  
-    ?diseaseURI rdfs:label ?disease.  
+    ?studyURI dcat:theme ?speciesURI;   
+              dct:title ?study;
+              dct:publisher ?publisherURI;
+              sio:SIO_000219 [myonto:has_phenotype_variable [a ?phenotypeURI]].     
+    ?publisherURI foaf:name ?publisher.
+    
+    ?speciesURI skos:prefLabel ?species.
+    ?phenotypeURI rdfs:label ?phenotype.
   }
-}  group by ?diseaseURI ?disease ?biobank ?biobankURI ?registry ?registryURI
+}

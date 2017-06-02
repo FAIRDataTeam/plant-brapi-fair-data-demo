@@ -1,0 +1,29 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX myonto: <http://mydomain.com/ontoglies/myplantOnto/>
+
+SELECT DISTINCT (COUNT (DISTINCT ?studyURI) as ?numberOfStudies) ?publisherURI ?publisher ?speciesURI (STR(?species) AS ?species) ?phenotypeURI (STR(?phenotype) AS ?phenotype) {
+      
+
+  VALUES(?phenotypeInput ?speciesURI) {(<#phenotype#> <#species#>)}   
+  #{
+   # ?speciesURI  rdfs:subClassOf* ?speciesInput.
+  #} 
+
+  
+  {?phenotypeURI  rdfs:subClassOf* ?phenotypeInput} UNION {?phenotypeURI skos:relatedMatch ?phenotypeInput}  
+  {    
+    ?studyURI dcat:theme ?speciesURI;   
+              dct:title ?study;
+              dct:publisher ?publisherURI;
+              sio:SIO_000219 [myonto:has_phenotype_variable [a ?phenotypeURI]].     
+    ?publisherURI foaf:name ?publisher.
+    
+    ?speciesURI skos:prefLabel ?species.
+    ?phenotypeURI rdfs:label ?phenotype.
+  }
+}

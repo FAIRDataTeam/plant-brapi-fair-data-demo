@@ -1,12 +1,12 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX hpo: <http://purl.obolibrary.org/obo/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT DISTINCT ?url ?value { 
+SELECT DISTINCT ?url (STR(?value) AS ?value) { 
 
-    VALUES ?url {hpo:HP_0000154 hpo:HP_0002072 hpo:HP_0000470 hpo:HP_0001250 hpo:HP_0000316 
-hpo:HP_0000463 hpo:HP_0000152 hpo:HP_0000271 
-                    hpo:HP_0000118
-                }  
+    VALUES ?url {obo:SP_0000011 obo:SP_0000003 obo:SP_0000009 obo:SP_0000086
+                    obo:SP_0000088 obo:SP_0000165 obo:SP_0000126}
+
     {
         ?url rdfs:label ?value.
     }
