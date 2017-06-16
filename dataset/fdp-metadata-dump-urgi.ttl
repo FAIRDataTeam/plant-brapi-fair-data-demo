@@ -1,0 +1,284 @@
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/catalog/studies> a ns3:Catalog ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://urgi.versailles.inra.fr/> ;
+    ns1:title "BrAPI Studies catalog" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/catalog/studies#metadata> ;
+    ns2:metadataIssued "2017-06-01T13:47:34.559000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-06-01T13:47:34.562000+02:00"^^xsd:dateTime ;
+    ns3:dataset <http://localhost:8080/fdp/dataset/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck>,
+        <http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_Avignon>,
+        <http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_fruit_weight_Avignon> ;
+    ns3:themeTaxonomy <http://example.com> .
+
+<http://localhost:8080/fdp/catalog/studies#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "studies" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_fruit_weight_Avignon> a ns4:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://urgi.versailles.inra.fr/> ;
+    ns2:title "GWAS_Tomato_Solcap_fruit_weight_Avignon Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_fruit_weight_Avignon#metadata> ;
+    ns1:metadataIssued "2017-06-01T13:47:35.185000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-06-01T13:47:35.186000+02:00"^^xsd:dateTime ;
+    ns4:distribution <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-json>,
+        <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-nq> ;
+    ns4:theme <http://purl.bioontology.org/ontology/NCBITAXON/4081>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_fruit_weight_Avignon#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-GWAS_Tomato_Solcap_fruit_weight_Avignon" .
+
+<https://urgi.versailles.inra.fr/> a ns3:Agent ;
+    ns3:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-json> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://urgi.versailles.inra.fr/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-json#metadata> ;
+    ns2:metadataIssued "2017-06-01T13:47:35.305000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-06-01T13:47:35.305000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://gcornut.noip.me/brapi/v1/studies/GWAS_Tomato_Solcap_fruit_weight_Avignon> ;
+    ns4:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-GWAS_Tomato_Solcap_fruit_weight_Avignon-json" .
+
+<https://urgi.versailles.inra.fr/> a ns3:Agent ;
+    ns3:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-nq> a ns4:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://urgi.versailles.inra.fr/> ;
+    ns2:title "NQuads distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-nq#metadata> ;
+    ns1:metadataIssued "2017-06-01T13:47:35.335000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-06-01T13:47:35.335000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/GWAS_Tomato_Solcap_fruit_weight_Avignon.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_fruit_weight_Avignon-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-GWAS_Tomato_Solcap_fruit_weight_Avignon-nq" .
+
+<https://urgi.versailles.inra.fr/> a ns3:Agent ;
+    ns3:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck> a ns2:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://urgi.versailles.inra.fr/> ;
+    ns1:title "ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck#metadata> ;
+    ns3:metadataIssued "2017-06-01T13:47:35.355000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-06-01T13:47:35.355000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-json>,
+        <http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4081>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://urgi.versailles.inra.fr/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-nq#metadata> ;
+    ns3:metadataIssued "2017-06-01T13:47:35.461000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-06-01T13:47:35.461000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-nq" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://urgi.versailles.inra.fr/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-json#metadata> ;
+    ns2:metadataIssued "2017-06-01T13:47:35.480000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-06-01T13:47:35.480000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://gcornut.noip.me/brapi/v1/studies/ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-ASSO_S1P9_FFLW8_Average:Gif-sur-Yvette,Saint-Martin-de-Hinx,Einbeck-json" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_Avignon> a ns1:Dataset ;
+    ns4:hasVersion "1.0" ;
+    ns4:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns4:publisher <https://urgi.versailles.inra.fr/> ;
+    ns4:title "GWAS_Tomato_Solcap_Avignon Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_Avignon#metadata> ;
+    ns3:metadataIssued "2017-06-01T13:47:35.516000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-06-01T13:47:35.516000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-json>,
+        <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4081>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-GWAS_Tomato_Solcap_Avignon#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns4:identifier "study-GWAS_Tomato_Solcap_Avignon" .
+
+<https://urgi.versailles.inra.fr/> a ns2:Agent ;
+    ns2:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-json> a ns1:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://urgi.versailles.inra.fr/> ;
+    ns3:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-json#metadata> ;
+    ns2:metadataIssued "2017-06-01T13:47:35.638000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-06-01T13:47:35.638000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://gcornut.noip.me/brapi/v1/studies/GWAS_Tomato_Solcap_Avignon> ;
+    ns1:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-GWAS_Tomato_Solcap_Avignon-json" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-nq> a ns1:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://urgi.versailles.inra.fr/> ;
+    ns3:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-nq#metadata> ;
+    ns2:metadataIssued "2017-06-01T13:47:35.665000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-06-01T13:47:35.665000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://localhost:8080/studies/GWAS_Tomato_Solcap_Avignon.nq> ;
+    ns1:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-GWAS_Tomato_Solcap_Avignon-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-GWAS_Tomato_Solcap_Avignon-nq" .
+
+<https://urgi.versailles.inra.fr/> a ns4:Agent ;
+    ns4:name "Unité de Recherche Génomique Info" .
+
+

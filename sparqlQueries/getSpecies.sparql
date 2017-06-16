@@ -4,7 +4,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?url (STR(?value) AS ?value) { 
 
-    VALUES ?url {ncbi:49274 ncbi:4081 ncbi:588597 ncbi:4577 }  
+    VALUES ?url {ncbi:49274 ncbi:4081 ncbi:4577 }  
     {
         ?url skos:prefLabel ?value.
     }

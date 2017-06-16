@@ -1,0 +1,2176 @@
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/catalog/studies> a ns2:Catalog ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "BrAPI Studies catalog" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/catalog/studies#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:54.239000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:54.239000+02:00"^^xsd:dateTime ;
+    ns2:dataset <http://localhost:8080/fdp/dataset/study-VIB_study___49>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___50>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___51>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___52>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___53>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___54>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___55>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___56>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___57>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___58>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___59>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___60>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___61>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___62>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___63>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___64>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___65>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___66>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___67>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___68>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___69>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___70>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___71>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___72>,
+        <http://localhost:8080/fdp/dataset/study-VIB_study___73> ;
+    ns2:themeTaxonomy <http://example.com> .
+
+<http://localhost:8080/fdp/catalog/studies#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "studies" .
+
+<https://pippa.psb.ugent.be/> a ns1:Agent ;
+    ns1:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___63> a ns4:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 8-way  batch 2 Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___63#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:54.757000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:54.757000+02:00"^^xsd:dateTime ;
+    ns4:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___63-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___63-nq> ;
+    ns4:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___63#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___63" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___63-nq> a ns1:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___63-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:54.847000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:54.847000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://localhost:8080/studies/VIB_study___63.nq> ;
+    ns1:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___63-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___63-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___63-json> a ns4:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___63-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:54.859000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:54.859000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___63> ;
+    ns4:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___63-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___63-json" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___60> a ns1:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "RIL 2-way  batch 13 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___60#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:54.871000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:54.871000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___60-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___60-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___60#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___60" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___60-json> a ns1:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___60-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:54.922000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:54.922000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___60> ;
+    ns1:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___60-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___60-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___60-nq> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___60-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:54.935000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:54.935000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/VIB_study___60.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___60-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___60-nq" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___54> a ns3:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 6 Study" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___54#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:54.949000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:54.949000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___54-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___54-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___54#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___54" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___54-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___54-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:54.998000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:54.998000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___54.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___54-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___54-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___54-json> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___54-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.011000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.011000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___54> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___54-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___54-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___73> a ns2:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch pilot Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___73#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:55.022000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:55.022000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___73-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___73-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___73#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___73" .
+
+<https://pippa.psb.ugent.be/> a ns1:Agent ;
+    ns1:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___73-nq> a ns3:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "NQuads distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___73-nq#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.070000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.070000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___73.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___73-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___73-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___73-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___73-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.084000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.084000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___73> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___73-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___73-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___72> a ns2:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 8-way  batch 11 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___72#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:55.096000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:55.096000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___72-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___72-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___72#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___72" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___72-nq> a ns2:Distribution ;
+    ns4:hasVersion "1.0" ;
+    ns4:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns4:publisher <https://pippa.psb.ugent.be/> ;
+    ns4:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___72-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.145000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.145000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___72.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___72-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns4:identifier "study-VIB_study___72-nq" .
+
+<https://pippa.psb.ugent.be/> a ns1:Agent ;
+    ns1:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___72-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___72-json#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:55.160000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:55.160000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___72> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___72-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___72-json" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___58> a ns2:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 2-way  batch 10 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___58#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.177000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.177000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___58-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___58-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___58#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___58" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___58-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___58-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.229000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.229000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___58.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___58-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___58-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___58-json> a ns3:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___58-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.244000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.244000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___58> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___58-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___58-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___50> a ns2:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 2-way  batch 2 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___50#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.257000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.257000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___50-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___50-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___50#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___50" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___50-json> a ns4:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___50-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.305000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.305000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___50> ;
+    ns4:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___50-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___50-json" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___50-nq> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___50-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.319000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.319000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/VIB_study___50.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___50-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___50-nq" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___71> a ns2:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch 10 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___71#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:55.337000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:55.337000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___71-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___71-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___71#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___71" .
+
+<https://pippa.psb.ugent.be/> a ns1:Agent ;
+    ns1:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___71-nq> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___71-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.381000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.381000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/VIB_study___71.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___71-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___71-nq" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___71-json> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___71-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.393000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.393000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___71> ;
+    ns4:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___71-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___71-json" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___62> a ns2:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch 1 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___62#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.406000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.406000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___62-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___62-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___62#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___62" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___62-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___62-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.450000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.450000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___62.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___62-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___62-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___62-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___62-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.463000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.463000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___62> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___62-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___62-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___57> a ns1:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 2-way  batch 9 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___57#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:55.476000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:55.476000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___57-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___57-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___57#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___57" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___57-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___57-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.522000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.522000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___57.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___57-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___57-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___57-json> a ns2:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___57-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.536000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.536000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___57> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___57-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___57-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___68> a ns3:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "RIL 8-way  batch 7 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___68#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.550000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.550000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___68-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___68-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___68#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___68" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___68-json> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___68-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.596000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.596000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___68> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___68-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___68-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___68-nq> a ns2:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "NQuads distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___68-nq#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.610000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.610000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___68.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___68-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___68-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___59> a ns2:Dataset ;
+    ns4:hasVersion "1.0" ;
+    ns4:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns4:publisher <https://pippa.psb.ugent.be/> ;
+    ns4:title "RIL 2-way  batch 11 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___59#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.621000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.621000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___59-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___59-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___59#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns4:identifier "study-VIB_study___59" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___59-nq> a ns1:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___59-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.669000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.669000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://localhost:8080/studies/VIB_study___59.nq> ;
+    ns1:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___59-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___59-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___59-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___59-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.686000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.686000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___59> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___59-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___59-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___66> a ns2:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 8-way  batch 5 Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___66#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.698000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.698000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___66-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___66-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___66#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___66" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___66-nq> a ns2:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "NQuads distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___66-nq#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.744000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.744000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___66.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___66-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___66-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___66-json> a ns2:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___66-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.757000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.758000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___66> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___66-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___66-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___53> a ns2:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 5 Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___53#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.770000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.770000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___53-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___53-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___53#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___53" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___53-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___53-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.815000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.815000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___53.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___53-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___53-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___53-json> a ns2:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___53-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.827000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.827000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___53> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___53-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___53-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___70> a ns1:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch 9 Study" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___70#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.840000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.840000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___70-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___70-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___70#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___70" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___70-nq> a ns1:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___70-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:55.888000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:55.888000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://localhost:8080/studies/VIB_study___70.nq> ;
+    ns1:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___70-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___70-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___70-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___70-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.901000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.901000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___70> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___70-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___70-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___55> a ns3:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 7 Study" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___55#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.914000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.914000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___55-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___55-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___55#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___55" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___55-json> a ns4:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___55-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.961000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.961000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___55> ;
+    ns4:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___55-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___55-json" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___55-nq> a ns1:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___55-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:55.976000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:55.976000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <http://localhost:8080/studies/VIB_study___55.nq> ;
+    ns1:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___55-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___55-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___67> a ns4:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch 6 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___67#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:55.990000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:55.990000+02:00"^^xsd:dateTime ;
+    ns4:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___67-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___67-nq> ;
+    ns4:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___67#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___67" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___67-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___67-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.042000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.042000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___67.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___67-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___67-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___67-json> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___67-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.055000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.055000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___67> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___67-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___67-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___61> a ns3:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 14 Study" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___61#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.068000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.068000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___61-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___61-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___61#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___61" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___61-json> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___61-json#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:56.113000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:56.113000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___61> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___61-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___61-json" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___61-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___61-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.125000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.125000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___61.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___61-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___61-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___64> a ns4:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "RIL 8-way  batch 3 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___64#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:56.138000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:56.138000+02:00"^^xsd:dateTime ;
+    ns4:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___64-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___64-nq> ;
+    ns4:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___64#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___64" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___64-json> a ns1:Distribution ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___64-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.184000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.184000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___64> ;
+    ns1:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___64-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___64-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___64-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___64-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.197000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.197000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___64.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___64-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___64-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___52> a ns1:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "RIL 2-way  batch 4 Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___52#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.211000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.211000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___52-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___52-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___52#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___52" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___52-json> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___52-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.257000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.257000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___52> ;
+    ns2:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___52-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___52-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___52-nq> a ns2:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___52-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.270000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.270000+02:00"^^xsd:dateTime ;
+    ns2:byteSize 0.0 ;
+    ns2:downloadURL <http://localhost:8080/studies/VIB_study___52.nq> ;
+    ns2:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___52-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___52-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___51> a ns2:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 3 Study" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___51#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.283000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.283000+02:00"^^xsd:dateTime ;
+    ns2:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___51-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___51-nq> ;
+    ns2:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___51#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___51" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___51-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___51-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.328000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.328000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___51.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___51-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___51-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___51-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___51-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.341000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.341000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___51> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___51-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___51-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___49> a ns3:Dataset ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "RIL 2-way  batch 1 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___49#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:56.353000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:56.353000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___49-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___49-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___49#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___49" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___49-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___49-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.400000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.400000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___49> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___49-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___49-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___49-nq> a ns4:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___49-nq#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.412000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.412000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/VIB_study___49.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___49-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___49-nq" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___69> a ns3:Dataset ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "RIL 8-way  batch 8 Study" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___69#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:56.425000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:56.425000+02:00"^^xsd:dateTime ;
+    ns3:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___69-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___69-nq> ;
+    ns3:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___69#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___69" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___69-json> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "JSON distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___69-json#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.473000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.473000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___69> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___69-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___69-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___69-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___69-nq#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.486000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.486000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___69.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___69-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___69-nq" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___56> a ns1:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 2-way  batch 8 Study" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___56#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:56.498000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:56.498000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___56-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___56-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___56#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___56" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___56-nq> a ns3:Distribution ;
+    ns1:hasVersion "1.0" ;
+    ns1:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns1:publisher <https://pippa.psb.ugent.be/> ;
+    ns1:title "NQuads distribution" ;
+    ns4:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___56-nq#metadata> ;
+    ns4:metadataIssued "2017-05-31T17:08:56.543000+02:00"^^xsd:dateTime ;
+    ns4:metadataModified "2017-05-31T17:08:56.543000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <http://localhost:8080/studies/VIB_study___56.nq> ;
+    ns3:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___56-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns1:identifier "study-VIB_study___56-nq" .
+
+<https://pippa.psb.ugent.be/> a ns2:Agent ;
+    ns2:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://www.w3.org/ns/dcat#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___56-json> a ns3:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "JSON distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___56-json#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:56.556000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:56.556000+02:00"^^xsd:dateTime ;
+    ns3:byteSize 0.0 ;
+    ns3:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___56> ;
+    ns3:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___56-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___56-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___65> a ns1:Dataset ;
+    ns3:hasVersion "1.0" ;
+    ns3:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns3:publisher <https://pippa.psb.ugent.be/> ;
+    ns3:title "RIL 8-way  batch 4 Study" ;
+    ns2:metadataIdentifier <http://localhost:8080/fdp/dataset/study-VIB_study___65#metadata> ;
+    ns2:metadataIssued "2017-05-31T17:08:56.567000+02:00"^^xsd:dateTime ;
+    ns2:metadataModified "2017-05-31T17:08:56.567000+02:00"^^xsd:dateTime ;
+    ns1:distribution <http://localhost:8080/fdp/distribution/study-VIB_study___65-json>,
+        <http://localhost:8080/fdp/distribution/study-VIB_study___65-nq> ;
+    ns1:theme <http://purl.bioontology.org/ontology/NCBITAXON/4577>,
+        <http://purl.obolibrary.org/obo/OBI_0000066> .
+
+<http://localhost:8080/fdp/dataset/study-VIB_study___65#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns3:identifier "study-VIB_study___65" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://www.w3.org/ns/dcat#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns4: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___65-json> a ns1:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "JSON distribution" ;
+    ns3:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___65-json#metadata> ;
+    ns3:metadataIssued "2017-05-31T17:08:56.614000+02:00"^^xsd:dateTime ;
+    ns3:metadataModified "2017-05-31T17:08:56.615000+02:00"^^xsd:dateTime ;
+    ns1:byteSize 0.0 ;
+    ns1:downloadURL <https://pippa.psb.ugent.be/pippa_experiments/brapi/v1/studies/VIB_study___65> ;
+    ns1:mediaType "application/json" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___65-json#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___65-json" .
+
+<https://pippa.psb.ugent.be/> a ns4:Agent ;
+    ns4:name "PIPPA" .
+
+
+@prefix ns1: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://www.w3.org/ns/dcat#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___65-nq> a ns4:Distribution ;
+    ns2:hasVersion "1.0" ;
+    ns2:license <http://rdflicense.appspot.com/rdflicense/cc-zero1.0> ;
+    ns2:publisher <https://pippa.psb.ugent.be/> ;
+    ns2:title "NQuads distribution" ;
+    ns1:metadataIdentifier <http://localhost:8080/fdp/distribution/study-VIB_study___65-nq#metadata> ;
+    ns1:metadataIssued "2017-05-31T17:08:56.628000+02:00"^^xsd:dateTime ;
+    ns1:metadataModified "2017-05-31T17:08:56.628000+02:00"^^xsd:dateTime ;
+    ns4:byteSize 0.0 ;
+    ns4:downloadURL <http://localhost:8080/studies/VIB_study___65.nq> ;
+    ns4:mediaType "text/nquads" .
+
+<http://localhost:8080/fdp/distribution/study-VIB_study___65-nq#metadata> a <http://purl.org/spar/datacite/Identifier> ;
+    ns2:identifier "study-VIB_study___65-nq" .
+
+<https://pippa.psb.ugent.be/> a ns3:Agent ;
+    ns3:name "PIPPA" .
+
+
